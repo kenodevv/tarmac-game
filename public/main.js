@@ -1,1 +1,1042 @@
-function _0x26d6(_0x54a30e,_0x4a4d97){var _0x48fb55=_0x48fb();return _0x26d6=function(_0x26d679,_0x297280){_0x26d679=_0x26d679-0x139;var _0x4b0684=_0x48fb55[_0x26d679];return _0x4b0684;},_0x26d6(_0x54a30e,_0x4a4d97);}(function(_0x59fcce,_0xd418ce){var _0x39474d=_0x26d6,_0x2fc9c0=_0x59fcce();while(!![]){try{var _0x95362e=-parseInt(_0x39474d(0x1c9))/0x1*(parseInt(_0x39474d(0x1e9))/0x2)+-parseInt(_0x39474d(0x1a6))/0x3*(-parseInt(_0x39474d(0x1d9))/0x4)+parseInt(_0x39474d(0x167))/0x5+parseInt(_0x39474d(0x19d))/0x6*(parseInt(_0x39474d(0x1ea))/0x7)+parseInt(_0x39474d(0x142))/0x8*(parseInt(_0x39474d(0x1b0))/0x9)+-parseInt(_0x39474d(0x199))/0xa*(parseInt(_0x39474d(0x139))/0xb)+parseInt(_0x39474d(0x1da))/0xc*(parseInt(_0x39474d(0x1b7))/0xd);if(_0x95362e===_0xd418ce)break;else _0x2fc9c0['push'](_0x2fc9c0['shift']());}catch(_0x9b19e5){_0x2fc9c0['push'](_0x2fc9c0['shift']());}}}(_0x48fb,0x7cff0),function(_0x207093){var _0x25fb4d=_0x26d6,_0x292ec3=document[_0x25fb4d(0x18b)](_0x25fb4d(0x1c6)),_0x4ba0f1=_0x292ec3[_0x25fb4d(0x179)]('2d'),_0x2dd5ef,_0x57f9e2,_0x49e171,_0x15be7a,_0x90dcca=[],_0x3c09dd=[],_0x1cb6bc,_0x491bcc,_0x3abac2,_0x488771,_0x4c12ec=0x20,_0x524c76=_0x292ec3['height']-_0x4c12ec/0x2+0x46,_0x16348d=0x40;let _0x2e619b=0x0;var _0x5e0bd7='localStorage'in window&&window[_0x25fb4d(0x1d4)]!==null,_0x483435,_0x358f52,_0x3c1fe1=![],_0x483435,_0x11788f=0xa,_0x12213f=0x4,_0x4d62c1=0x7,_0x5e9fec=0x8,_0x555107=0x7;_0x5e0bd7&&(_0x483435=localStorage[_0x25fb4d(0x187)](_0x25fb4d(0x19a))===_0x25fb4d(0x189),_0x483435?_0x207093(_0x25fb4d(0x1e3))[_0x25fb4d(0x154)](_0x25fb4d(0x1df))[_0x25fb4d(0x1a5)](_0x25fb4d(0x1bf)):_0x207093(_0x25fb4d(0x1e3))['addClass'](_0x25fb4d(0x1bf))['removeClass'](_0x25fb4d(0x1df)));/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i['test'](navigator[_0x25fb4d(0x174)])&&(document[_0x25fb4d(0x1bb)](_0x25fb4d(0x1e1))[0x0][_0x25fb4d(0x17b)][_0x25fb4d(0x1d2)]='-60px',document[_0x25fb4d(0x178)][_0x25fb4d(0x17b)][_0x25fb4d(0x196)]=_0x25fb4d(0x13c));function _0x5e28eb(_0x38c73d,_0x46613b){var _0x1a19c6=_0x25fb4d;return Math[_0x1a19c6(0x1d6)](Math[_0x1a19c6(0x14b)]()*(_0x46613b-_0x38c73d+0x1)+_0x38c73d);}function _0x228c2a(_0x22b20c,_0x4d1253,_0x3934d3){var _0x585d30=_0x25fb4d;return Math[_0x585d30(0x17c)](Math['min'](_0x22b20c,_0x3934d3),_0x4d1253);}var _0x3bdae5=(function(){var _0x2483e4=_0x25fb4d;this[_0x2483e4(0x195)]={'bg':_0x2483e4(0x1cd),'bglayer1':_0x2483e4(0x157),'discount':_0x2483e4(0x1d5),'username':_0x2483e4(0x1af),'game2over':_0x2483e4(0x1a2),'pressstart':_0x2483e4(0x1a3),'tarmacstartlogo':_0x2483e4(0x148),'leaderboardtarmac':'imgs/Tarmac-Leaderboard.png','grass':_0x2483e4(0x1ae),'avatar_normal':'imgs/walkanim.png','barrier-monkey':'imgs/barrier-monkey.png','barrier-schere':_0x2483e4(0x16e),'barrier-spike':_0x2483e4(0x190)},this[_0x2483e4(0x169)]={'gamemusik':_0x2483e4(0x170)};var _0x182e59=0x0,_0xd0bef4=Object['keys'](this['imgs'])[_0x2483e4(0x1c8)],_0x49c7b1=Object[_0x2483e4(0x1cf)](this[_0x2483e4(0x169)])[_0x2483e4(0x1c8)];this[_0x2483e4(0x1bc)]=_0xd0bef4+_0x49c7b1,this[_0x2483e4(0x1bc)]=_0xd0bef4;function _0x1039f5(_0x812632,_0x36b0f8){var _0x5847b1=_0x2483e4;if(this[_0x812632][_0x36b0f8]['status']!==_0x5847b1(0x17f))return;this[_0x812632][_0x36b0f8][_0x5847b1(0x1dc)]=_0x5847b1(0x16f),_0x182e59++,typeof this[_0x5847b1(0x185)]==='function'&&this[_0x5847b1(0x185)](_0x182e59,this['totalAssest']),_0x182e59===this[_0x5847b1(0x1bc)]&&typeof this[_0x5847b1(0x1cb)]==='function'&&this[_0x5847b1(0x1cb)]();}function _0x464c6e(_0x662e83){var _0xfbb419=_0x2483e4;this[_0xfbb419(0x169)][_0x662e83][_0xfbb419(0x1dc)]===_0xfbb419(0x17f)&&this[_0xfbb419(0x169)][_0x662e83][_0xfbb419(0x1d8)]===0x4&&_0x1039f5[_0xfbb419(0x1d7)](this,_0xfbb419(0x169),_0x662e83);}return this['downloadAll']=function(){var _0x35f90f=_0x2483e4,_0x565a1a=this,_0x18e703;for(var _0x2a232a in this[_0x35f90f(0x195)]){this['imgs'][_0x35f90f(0x1eb)](_0x2a232a)&&(_0x18e703=this[_0x35f90f(0x195)][_0x2a232a],function(_0x139add,_0x470159){var _0x1efa51=_0x35f90f;_0x139add[_0x1efa51(0x195)][_0x470159]=new Image(),_0x139add[_0x1efa51(0x195)][_0x470159][_0x1efa51(0x1dc)]=_0x1efa51(0x17f),_0x139add['imgs'][_0x470159][_0x1efa51(0x18d)]=_0x470159,_0x139add['imgs'][_0x470159][_0x1efa51(0x19e)]=function(){var _0x45d9bd=_0x1efa51;_0x1039f5[_0x45d9bd(0x1d7)](_0x139add,_0x45d9bd(0x195),_0x470159);},_0x139add[_0x1efa51(0x195)][_0x470159][_0x1efa51(0x1ba)]=_0x18e703;}(_0x565a1a,_0x2a232a));}for(var _0x46f0b9 in this[_0x35f90f(0x169)]){this[_0x35f90f(0x169)][_0x35f90f(0x1eb)](_0x46f0b9)&&(_0x18e703=this['sounds'][_0x46f0b9],function(_0x5a31b6,_0x2356b1){var _0x3223c7=_0x35f90f;_0x5a31b6[_0x3223c7(0x169)][_0x2356b1]=new Audio(),_0x5a31b6['sounds'][_0x2356b1][_0x3223c7(0x1dc)]=_0x3223c7(0x17f),_0x5a31b6[_0x3223c7(0x169)][_0x2356b1][_0x3223c7(0x18d)]=_0x2356b1,_0x5a31b6['sounds'][_0x2356b1][_0x3223c7(0x186)](_0x3223c7(0x159),function(){var _0x5e8df1=_0x3223c7;_0x464c6e[_0x5e8df1(0x1d7)](_0x5a31b6,_0x2356b1);}),_0x5a31b6['sounds'][_0x2356b1]['src']=_0x18e703,_0x5a31b6[_0x3223c7(0x169)][_0x2356b1][_0x3223c7(0x141)]=_0x3223c7(0x1aa),_0x5a31b6['sounds'][_0x2356b1]['load'](),_0x5a31b6[_0x3223c7(0x169)][_0x2356b1]['volume']=0.3;}(_0x565a1a,_0x46f0b9));}},{'imgs':this['imgs'],'sounds':this[_0x2483e4(0x169)],'totalAssest':this[_0x2483e4(0x1bc)],'downloadAll':this['downloadAll']};}());_0x3bdae5[_0x25fb4d(0x185)]=function(_0x17a7e8,_0x427a19){var _0x1d7298=_0x25fb4d,_0x1b655f=document[_0x1d7298(0x18b)](_0x1d7298(0x1b6));_0x1b655f[_0x1d7298(0x198)]=_0x17a7e8/_0x427a19,document[_0x1d7298(0x18b)]('p')[_0x1d7298(0x171)]=Math[_0x1d7298(0x165)](_0x1b655f[_0x1d7298(0x198)]*0x64)+'%';},_0x3bdae5[_0x25fb4d(0x1cb)]=function(){_0x22841d();};function _0xe29da1(_0x2b4f06,_0x5bd361,_0x5bd2f0){var _0x512fc2=_0x25fb4d;this[_0x512fc2(0x15c)]=new Image(),this[_0x512fc2(0x1c7)]=_0x5bd361,this['frameHeight']=_0x5bd2f0;var _0x9baef5=this;this[_0x512fc2(0x15c)][_0x512fc2(0x19e)]=function(){var _0x215757=_0x512fc2;_0x9baef5[_0x215757(0x156)]=Math[_0x215757(0x1d6)](_0x9baef5[_0x215757(0x15c)]['width']/_0x9baef5[_0x215757(0x1c7)]);},this[_0x512fc2(0x15c)][_0x512fc2(0x1ba)]=_0x2b4f06;}function _0xa41108(_0x29bb06,_0x58e669,_0x1b96f3,_0x5bd9e1,_0x5e6357=!![]){var _0x4ace27=_0x25fb4d,_0x4e74b8=[],_0x1acb5b=0x0,_0x966a49=0x0,_0x50910d=![];for(var _0x520159=_0x1b96f3;_0x520159<=_0x5bd9e1;_0x520159++)_0x4e74b8[_0x4ace27(0x13a)](_0x520159);this['update']=function(){var _0x43a3bc=_0x4ace27;if(_0x50910d)return;if(_0x966a49==_0x58e669-0x1){if(_0x1acb5b<_0x4e74b8[_0x43a3bc(0x1c8)]-0x1)_0x1acb5b++;else _0x5e6357?_0x1acb5b=0x0:_0x50910d=!![];}_0x966a49=(_0x966a49+0x1)%_0x58e669;},this['draw']=function(_0x526751,_0x16be0a){var _0x2ba489=_0x4ace27,_0x4e46d6=Math[_0x2ba489(0x1d6)](_0x4e74b8[_0x1acb5b]/_0x29bb06[_0x2ba489(0x156)]),_0x3795c4=Math[_0x2ba489(0x1d6)](_0x4e74b8[_0x1acb5b]%_0x29bb06[_0x2ba489(0x156)]);_0x4ba0f1[_0x2ba489(0x13b)](_0x29bb06[_0x2ba489(0x15c)],_0x3795c4*_0x29bb06[_0x2ba489(0x1c7)],_0x4e46d6*_0x29bb06[_0x2ba489(0x1e5)],_0x29bb06[_0x2ba489(0x1c7)],_0x29bb06[_0x2ba489(0x1e5)],_0x526751,_0x16be0a+0xc,_0x29bb06[_0x2ba489(0x1c7)],_0x29bb06[_0x2ba489(0x1e5)]);},this[_0x4ace27(0x14c)]=function(){_0x1acb5b=0x0,_0x966a49=0x0,_0x50910d=![];};}var _0x42665a=(function(){var _0x493513=_0x25fb4d,_0x53b348={},_0x284069={},_0x2d1a03={},_0x3836ef={};return this[_0x493513(0x1e2)]=function(){var _0x369d86=_0x493513;_0x53b348['x']-=_0x53b348[_0x369d86(0x1b3)],_0x284069['x']-=_0x284069[_0x369d86(0x1b3)],_0x2d1a03['x']-=_0x2d1a03['speed'],_0x4ba0f1[_0x369d86(0x13b)](_0x3bdae5['imgs']['bg'],0x0,0x0),_0x4ba0f1[_0x369d86(0x13b)](_0x3bdae5[_0x369d86(0x195)]['bglayer1'],_0x284069['x'],_0x284069['y']),_0x4ba0f1[_0x369d86(0x13b)](_0x3bdae5[_0x369d86(0x195)][_0x369d86(0x18c)],_0x284069['x']+_0x292ec3[_0x369d86(0x18a)],_0x284069['y']);_0x57f9e2>=0x1388&&!_0x3c1fe1&&(_0x3836ef['x']-=_0x3836ef['speed'],_0x4ba0f1[_0x369d86(0x13b)](_0x3bdae5[_0x369d86(0x195)][_0x369d86(0x1b2)],_0x3836ef['x'],_0x3836ef['y']),_0x3836ef['x']+_0x3bdae5['imgs'][_0x369d86(0x1b2)]['width']<0x0&&(_0x3c1fe1=!![]));if(_0x284069['x']+_0x3bdae5[_0x369d86(0x195)][_0x369d86(0x18c)][_0x369d86(0x18a)]<=0x0)_0x284069['x']=0x0;},this[_0x493513(0x14c)]=function(){var _0x48d915=_0x493513;_0x284069['x']=0x0,_0x284069['y']=0x0,_0x284069['speed']=_0x5e9fec,_0x2d1a03['x']=0x0,_0x2d1a03['y']=0x0,_0x2d1a03['speed']=_0x555107,_0x3836ef['x']=_0x292ec3[_0x48d915(0x18a)],_0x3836ef['y']=0x0,_0x3836ef[_0x48d915(0x1b3)]=_0x555107,_0x3c1fe1=![];},{'draw':this['draw'],'reset':this[_0x493513(0x14c)]};}());function _0xbfc9f7(_0x3137cd,_0x3976d7,_0x559071,_0x3b7730){this['x']=_0x3137cd||0x0,this['y']=_0x3976d7||0x0,this['dx']=_0x559071||0x0,this['dy']=_0x3b7730||0x0;}_0xbfc9f7[_0x25fb4d(0x1cc)][_0x25fb4d(0x168)]=function(_0x27e524){this['x']+=this['dx'],this['y']+=this['dy'];},_0xbfc9f7['prototype'][_0x25fb4d(0x18f)]=function(_0x2dce55){var _0x489061=_0x25fb4d,_0x3f1b7d=Infinity,_0x3faba9=Math[_0x489061(0x17c)](Math[_0x489061(0x152)](this['dx']),Math[_0x489061(0x152)](this['dy']),Math[_0x489061(0x152)](_0x2dce55['dx']),Math[_0x489061(0x152)](_0x2dce55['dy'])),_0x79efb4=0x1/_0x3faba9,_0x144d43,_0x2909e7,_0x1b5abe,_0x26c95f={},_0x151c29={};_0x26c95f['x']=this['x']+this[_0x489061(0x18a)]/0x2,_0x26c95f['y']=this['y']+this[_0x489061(0x1c0)]/0x2,_0x151c29['x']=_0x2dce55['x']+_0x2dce55['width']/0x2,_0x151c29['y']=_0x2dce55['y']+_0x2dce55[_0x489061(0x1c0)]/0x2;for(var _0x21ea00=0x0;_0x21ea00<0x1;_0x21ea00+=_0x79efb4){_0x144d43=_0x26c95f['x']+this['dx']*_0x21ea00-(_0x151c29['x']+_0x2dce55['dx']*_0x21ea00),_0x2909e7=_0x26c95f['y']+this['dy']*_0x21ea00-(_0x151c29['y']+_0x2dce55['dy']*_0x21ea00),_0x1b5abe=_0x144d43*_0x144d43+_0x2909e7*_0x2909e7,_0x3f1b7d=Math[_0x489061(0x17a)](_0x3f1b7d,_0x1b5abe);}return Math[_0x489061(0x1e6)](_0x3f1b7d);};var _0x2dd5ef=function(_0x24c1e3){var _0x285032=_0x25fb4d;return _0x24c1e3[_0x285032(0x18a)]=0xc8,_0x24c1e3['height']=0xc8,_0x24c1e3[_0x285032(0x1b3)]=_0x11788f,_0x24c1e3[_0x285032(0x1c2)]=1.3,_0x24c1e3['dy']=0x0,_0x24c1e3[_0x285032(0x19c)]=-0xf,_0x24c1e3['isFalling']=![],_0x24c1e3[_0x285032(0x149)]=![],_0x24c1e3[_0x285032(0x14f)]=new _0xe29da1(_0x285032(0x183),_0x24c1e3[_0x285032(0x18a)],_0x24c1e3['height']),_0x24c1e3[_0x285032(0x1c4)]=new _0xa41108(_0x24c1e3[_0x285032(0x14f)],_0x12213f,0x0,0xe,!![]),_0x24c1e3['jumpAnim']=new _0xa41108(_0x24c1e3['sheet'],0x4,0xf,0x18,![]),_0x24c1e3[_0x285032(0x1a4)]=new _0xa41108(_0x24c1e3['sheet'],0x8,0x14,0x18,![]),_0x24c1e3[_0x285032(0x172)]=_0x24c1e3['walkAnim'],_0xbfc9f7[_0x285032(0x1d7)](_0x24c1e3,0x0,0x0,0x0,_0x24c1e3['dy']),_0x24c1e3[_0x285032(0x1b5)]=function(_0x553ecc){var _0x563ee7=_0x285032;_0x154a78['space']&&_0x24c1e3['dy']===0x0&&!_0x24c1e3['isJumping']&&(_0x24c1e3['dy']=_0x24c1e3[_0x563ee7(0x19c)],_0x24c1e3[_0x563ee7(0x172)]=_0x24c1e3[_0x563ee7(0x19b)],_0x24c1e3['anim'][_0x563ee7(0x14c)](),_0x24c1e3[_0x563ee7(0x149)]=!![]),this[_0x563ee7(0x168)](_0x553ecc),(_0x24c1e3[_0x563ee7(0x17d)]||_0x24c1e3[_0x563ee7(0x149)])&&(_0x24c1e3['dy']+=_0x24c1e3['gravity']),_0x24c1e3['dy']>0x0&&_0x24c1e3['isJumping']&&(_0x24c1e3['isFalling']=!![],_0x24c1e3[_0x563ee7(0x149)]=![]),_0x24c1e3['dy']===0x0&&(_0x24c1e3[_0x563ee7(0x17d)]=![],_0x24c1e3[_0x563ee7(0x172)]!==_0x24c1e3[_0x563ee7(0x1c4)]&&(_0x24c1e3[_0x563ee7(0x172)]=_0x24c1e3[_0x563ee7(0x1c4)])),_0x24c1e3[_0x563ee7(0x172)][_0x563ee7(0x1b5)]();},_0x24c1e3['draw']=function(){var _0x5bcbd5=_0x285032;_0x24c1e3[_0x5bcbd5(0x172)][_0x5bcbd5(0x1e2)](_0x24c1e3['x'],_0x24c1e3['y']);},_0x24c1e3[_0x285032(0x14c)]=function(){var _0x1ac7ad=_0x285032;_0x24c1e3['x']=0x40,_0x24c1e3['y']=0x96,_0x24c1e3[_0x1ac7ad(0x149)]=![];},_0x24c1e3;}(Object[_0x25fb4d(0x1ca)](_0xbfc9f7[_0x25fb4d(0x1cc)]));function _0x1e0e3e(_0x5d059a,_0x4e1ce1,_0x3f8554){var _0x4dc006=_0x25fb4d;_0x3f8554==_0x4dc006(0x1b8)&&(_0x4e1ce1=_0x4e1ce1,_0x5d059a=_0x5d059a+0x4b),this['x']=_0x5d059a,this['y']=_0x4e1ce1,this['width']=_0x4c12ec,this['height']=_0x4c12ec,this['type']=_0x3f8554,_0xbfc9f7[_0x4dc006(0x1d7)](this,_0x5d059a,_0x4e1ce1,0x0,0x0),this[_0x4dc006(0x1b5)]=function(){var _0x1cd0b2=_0x4dc006;this['dx']=-_0x2dd5ef['speed'],this[_0x1cd0b2(0x168)]();},this['draw']=function(){var _0x3da22c=_0x4dc006;_0x4ba0f1[_0x3da22c(0x16a)](),_0x4ba0f1['translate'](0.5,0.5),_0x4ba0f1[_0x3da22c(0x13b)](_0x3bdae5[_0x3da22c(0x195)][this[_0x3da22c(0x182)]],this['x'],this['y']),_0x4ba0f1[_0x3da22c(0x1a0)]();};}_0x1e0e3e['prototype']=Object['create'](_0xbfc9f7[_0x25fb4d(0x1cc)]);function _0x2d30c0(){var _0x3cedac=_0x25fb4d;_0x2dd5ef[_0x3cedac(0x17d)]=!![];for(var _0x1e86a2=0x0;_0x1e86a2<_0x90dcca[_0x3cedac(0x1c8)];_0x1e86a2++){_0x90dcca[_0x1e86a2][_0x3cedac(0x1b5)](),_0x90dcca[_0x1e86a2]['draw']();var _0x4a3cb0;_0x2dd5ef[_0x3cedac(0x18f)](_0x90dcca[_0x1e86a2])<=_0x2dd5ef[_0x3cedac(0x1c0)]/0x2+_0x4c12ec/0x2&&(_0x4a3cb0=Math['atan2'](_0x2dd5ef['y']-_0x90dcca[_0x1e86a2]['y'],_0x2dd5ef['x']-_0x90dcca[_0x1e86a2]['x'])*0xb4/Math['PI'])>-0x82&&_0x4a3cb0<-0x32&&(_0x2dd5ef[_0x3cedac(0x149)]=![],_0x2dd5ef[_0x3cedac(0x17d)]=![],_0x2dd5ef['y']=_0x90dcca[_0x1e86a2]['y']-_0x2dd5ef['height']+0x5,_0x2dd5ef['dy']=0x0);}_0x90dcca[0x0]&&_0x90dcca[0x0]['x']<-_0x4c12ec&&_0x90dcca[_0x3cedac(0x158)](0x0,0x1);}function _0x943ad4(_0x110444){var _0x3fadd6=_0x25fb4d;for(var _0x4f06ef=0x0;_0x4f06ef<_0x3c09dd['length'];_0x4f06ef++){_0x3c09dd[_0x4f06ef][_0x3fadd6(0x1b5)](_0x110444),_0x3c09dd[_0x4f06ef][_0x3fadd6(0x1e2)](),_0x2dd5ef[_0x3fadd6(0x18f)](_0x3c09dd[_0x4f06ef])<=_0x2dd5ef[_0x3fadd6(0x18a)]-0x64-0x14&&_0x3e6a78();}_0x3c09dd[0x0]&&_0x3c09dd[0x0]['x']<-_0x4c12ec&&_0x3c09dd['splice'](0x0,0x1);}function _0x55ff76(_0x117bd3){var _0x25aa8e=_0x25fb4d;_0x2dd5ef['update'](_0x117bd3),_0x2dd5ef[_0x25aa8e(0x1e2)](),_0x2dd5ef['y']+_0x2dd5ef[_0x25aa8e(0x1c0)]>=_0x292ec3[_0x25aa8e(0x1c0)]&&_0x3e6a78();}function _0x4d4788(_0x2f0528){var _0x5aeeba=_0x25fb4d;let _0x56425b='';const _0x57699c=_0x5aeeba(0x145),_0x12259b=_0x57699c[_0x5aeeba(0x1c8)];let _0x3b3fdc=0x0;while(_0x3b3fdc<_0x2f0528){_0x56425b+=_0x57699c['charAt'](Math['floor'](Math[_0x5aeeba(0x14b)]()*_0x12259b)),_0x3b3fdc+=0x1;}return _0x56425b;}hilfsvariable=0x32,kenodev_was_here='trmc_';function _0x146c7d(){var _0xa3075a=_0x25fb4d;_0x57f9e2++,scoreTEST=_0x57f9e2+0x19;const _0x18c20a=Math[_0xa3075a(0x1d6)](Math['random']()*0xa),_0x53f4da=scoreTEST*44.5+_0x18c20a,_0x28be3d=btoa(localStorage[_0xa3075a(0x187)](_0xa3075a(0x15b)));kenodev_was_here=_0xa3075a(0x163)+_0x53f4da+'_'+_0x18c20a+'_'+_0x28be3d;if(_0x3abac2>0x0){var _0x520d2f='grass';_0x90dcca['push'](new _0x1e0e3e(_0x292ec3['width']+_0x4c12ec%_0x2dd5ef[_0xa3075a(0x1b3)],_0x524c76-_0x491bcc*_0x16348d,_0x520d2f)),_0x3abac2--;}_0xb276b6(),_0x3abac2<=0x0&&(_0x3abac2=0x1869f);}function _0xb276b6(){var _0x3af124=_0x25fb4d;if(Math[_0x3af124(0x14b)]()>0.3&&_0x3c09dd['length']<0x1&&_0x3abac2>0x8&&(_0x3c09dd[_0x3af124(0x1c8)]?_0x292ec3[_0x3af124(0x18a)]-_0x3c09dd[_0x3c09dd[_0x3af124(0x1c8)]-0x1]['x']>=_0x4c12ec*0x3||_0x292ec3['width']-_0x3c09dd[_0x3c09dd[_0x3af124(0x1c8)]-0x1]['x']<_0x4c12ec:!![])){let _0x24b2a3,_0x166199=Math[_0x3af124(0x14b)]();if(_0x166199<0.1)_0x24b2a3='barrier-monkey';else _0x166199<0.55?_0x24b2a3='barrier-schere':_0x24b2a3=_0x3af124(0x177);_0x3c09dd[_0x3af124(0x13a)](new _0x1e0e3e(_0x292ec3[_0x3af124(0x18a)]+_0x4c12ec%_0x2dd5ef[_0x3af124(0x1b3)],_0x524c76-_0x491bcc*_0x16348d-_0x4c12ec-0x23,_0x24b2a3));}}previousValue=0x32;function _0x25c460(_0x36a776){!_0x49e171&&setTimeout(function(){var _0x1cfe6c=_0x26d6;_0x3c6201(_0x25c460),_0x4ba0f1[_0x1cfe6c(0x1b4)](0x0,0x0,_0x292ec3[_0x1cfe6c(0x18a)],_0x292ec3['height']);const _0x10e072=_0x37ec64(_0x36a776-_0x2e619b,0x0,0x1/0x3c);_0x2e619b=_0x36a776,_0x42665a[_0x1cfe6c(0x1e2)](_0x10e072),_0x2d30c0(_0x10e072),_0x943ad4(_0x10e072),_0x55ff76(_0x10e072);_0x358f52!==undefined&&_0x4ba0f1[_0x1cfe6c(0x1db)](_0x1cfe6c(0x17e)+_0x358f52,_0x292ec3[_0x1cfe6c(0x18a)]-0x96,0x1e);_0x4ba0f1[_0x1cfe6c(0x1db)](_0x1cfe6c(0x180)+_0x57f9e2,0x1e,0x1e);_0x15be7a%Math[_0x1cfe6c(0x1d6)](_0x4c12ec/_0x2dd5ef[_0x1cfe6c(0x1b3)])===0x0&&_0x146c7d();if(_0x15be7a>Math['floor'](_0x4c12ec/_0x2dd5ef['speed'])*_0x2dd5ef[_0x1cfe6c(0x1b3)]*0x14&&_0x2dd5ef['dy']!==0x0){_0x2dd5ef[_0x1cfe6c(0x1b3)]=_0x228c2a(_0x2dd5ef[_0x1cfe6c(0x1b3)]+0x2,0x0,0x1e),_0x2dd5ef[_0x1cfe6c(0x1c4)]['frameSpeed']=Math[_0x1cfe6c(0x1d6)](_0x4c12ec/_0x2dd5ef[_0x1cfe6c(0x1b3)])-0x1,_0x15be7a=0x0;if(_0x488771===0x0){var _0x1b81b1=_0x1cfe6c(0x176);_0x90dcca[_0x1cfe6c(0x13a)](new _0x1e0e3e(_0x292ec3['width']+_0x4c12ec%_0x2dd5ef[_0x1cfe6c(0x1b3)],_0x524c76-_0x491bcc*_0x16348d,_0x1b81b1)),_0x3abac2--;}}_0x15be7a++;},0x3e8/0x2d);}var _0x3198fd={0x20:_0x25fb4d(0x173)},_0x154a78={};for(var _0x2c8553 in _0x3198fd){_0x3198fd[_0x25fb4d(0x1eb)](_0x2c8553)&&(_0x154a78[_0x3198fd[_0x2c8553]]=![]);}document[_0x25fb4d(0x1e7)]=function(_0x22e41b){var _0x5e1c08=_0x25fb4d,_0x995c74=_0x22e41b[_0x5e1c08(0x1c3)]?_0x22e41b[_0x5e1c08(0x1c3)]:_0x22e41b['charCode'];_0x3198fd[_0x995c74]&&(_0x22e41b[_0x5e1c08(0x1c1)](),_0x154a78[_0x3198fd[_0x995c74]]=!![]);},document[_0x25fb4d(0x191)]=function(_0x374d74){var _0xfb01dd=_0x25fb4d,_0x4da1db=_0x374d74[_0xfb01dd(0x1c3)]?_0x374d74[_0xfb01dd(0x1c3)]:_0x374d74[_0xfb01dd(0x146)];_0x3198fd[_0x4da1db]&&(_0x374d74['preventDefault'](),_0x154a78[_0x3198fd[_0x4da1db]]=![]);},document[_0x25fb4d(0x18b)](_0x25fb4d(0x184))[_0x25fb4d(0x186)](_0x25fb4d(0x151),function(){_0x154a78[_0x3198fd[0x20]]=!![];}),document[_0x25fb4d(0x18b)](_0x25fb4d(0x184))[_0x25fb4d(0x186)](_0x25fb4d(0x18e),function(){_0x154a78[_0x3198fd[0x20]]=![];});var _0x3c6201=(function(){var _0x18ea01=_0x25fb4d;return window[_0x18ea01(0x1c5)]||window[_0x18ea01(0x1ad)]||window[_0x18ea01(0x1d3)]||window[_0x18ea01(0x15d)]||window['msRequestAnimationFrame']||function(_0x27454a,_0x3ae6bc){window['setTimeout'](_0x27454a,0x3e8/0x3c);};}());function _0x37ec64(_0x351370,_0x3f5a10,_0x10202f){var _0xd4716f=_0x25fb4d;return Math[_0xd4716f(0x17a)](Math[_0xd4716f(0x17c)](_0x351370,_0x3f5a10),_0x10202f);}function _0x22841d(){var _0x2c9dec=_0x25fb4d;_0x3bdae5[_0x2c9dec(0x169)]['gamemusik'][_0x2c9dec(0x153)]=!![];localStorage[_0x2c9dec(0x187)](_0x2c9dec(0x15b))!=null&&fetch(_0x2c9dec(0x188)+localStorage[_0x2c9dec(0x187)](_0x2c9dec(0x15b)),{'method':_0x2c9dec(0x1dd),'mode':_0x2c9dec(0x13d),'headers':{'Content-Type':_0x2c9dec(0x1a1)}})[_0x2c9dec(0x144)](async function(_0x3a6dc1){var _0x46b468=_0x2c9dec;const _0x4c0ac3=await _0x3a6dc1[_0x46b468(0x14a)]();_0x4c0ac3['player'][_0x46b468(0x13f)]!=undefined&&(_0x358f52=_0x4c0ac3[_0x46b468(0x15e)]['score']);})[_0x2c9dec(0x14e)](function(_0x2f29dd){var _0x333c82=_0x2c9dec;console[_0x333c82(0x16d)](_0x333c82(0x1de),_0x2f29dd);});for(var _0x58ff8a in _0x3bdae5[_0x2c9dec(0x169)]){_0x3bdae5[_0x2c9dec(0x169)]['hasOwnProperty'](_0x58ff8a)&&(_0x3bdae5['sounds'][_0x58ff8a][_0x2c9dec(0x1e0)]=!_0x483435);}_0x207093(_0x2c9dec(0x150))[_0x2c9dec(0x147)](),_0x207093(_0x2c9dec(0x1a7))[_0x2c9dec(0x193)](),_0x207093(_0x2c9dec(0x13e))[_0x2c9dec(0x154)](_0x2c9dec(0x1d1)),_0x207093(_0x2c9dec(0x1e3))['show']();}function _0x3cd5d9(){var _0x14d3cd=_0x25fb4d;_0x90dcca=[],_0x3c09dd=[],_0x2dd5ef[_0x14d3cd(0x14c)](),_0x15be7a=0x0,_0x49e171=![],_0x57f9e2=0x0,_0x491bcc=0x2,_0x3abac2=0xf,_0x2dd5ef[_0x14d3cd(0x1b3)]=_0x11788f,_0x488771=0x0,_0x4ba0f1['font']=_0x14d3cd(0x19f);for(var _0x1da842=0x0;_0x1da842<0x1e;_0x1da842++){_0x90dcca['push'](new _0x1e0e3e(_0x1da842*(_0x4c12ec-0x3),_0x524c76-_0x491bcc*_0x16348d,_0x14d3cd(0x176)));}_0x42665a[_0x14d3cd(0x14c)](),_0x25c460(performance[_0x14d3cd(0x197)]()),_0x3bdae5[_0x14d3cd(0x169)][_0x14d3cd(0x1ac)][_0x14d3cd(0x1d0)]=0x0,_0x3bdae5[_0x14d3cd(0x169)]['gamemusik'][_0x14d3cd(0x16c)]();}function _0x3e6a78(){var _0xfdc6b5=_0x25fb4d;fetch('/playerUpdate/'+localStorage[_0xfdc6b5(0x187)]('username')+'/'+_0x57f9e2+'/'+kenodev_was_here,{'method':'POST','mode':'cors','headers':{'Content-Type':'application/json'}})['then'](async function(_0x23c44d){var _0x1af9c1=_0xfdc6b5;const _0xacf4b8=await _0x23c44d[_0x1af9c1(0x14a)]();_0x358f52=_0xacf4b8['score'],_0x4ba0f1[_0x1af9c1(0x1db)](_0x1af9c1(0x17e)+_0x358f52,_0x292ec3[_0x1af9c1(0x18a)]-0x96,0x1e);})['catch'](function(_0x21e7db){var _0xf0e8e5=_0xfdc6b5;console[_0xf0e8e5(0x16d)]('Error:',_0x21e7db);}),_0x49e171=!![],_0x207093(_0xfdc6b5(0x1b9))[_0xfdc6b5(0x164)](_0x57f9e2),_0x207093('#menu')[_0xfdc6b5(0x147)](),_0x207093(_0xfdc6b5(0x155))['hide'](),_0x207093(_0xfdc6b5(0x1ce))[_0xfdc6b5(0x193)]();}function _0x3b169f(_0x439b73){var _0x50a5d6=_0x25fb4d;return _0x439b73[_0x50a5d6(0x15f)]('@')?_0x439b73:'@'+_0x439b73;}_0x207093('.startButton')[_0x25fb4d(0x16b)](function(){var _0x3ef7c0=_0x25fb4d;localStorage['getItem'](_0x3ef7c0(0x15b))?(_0x207093('#menu')['hide'](),_0x3cd5d9()):(document[_0x3ef7c0(0x18b)](_0x3ef7c0(0x14d))[_0x3ef7c0(0x17b)]['filter']='blur(5px)',document['getElementById'](_0x3ef7c0(0x15b))[_0x3ef7c0(0x17b)][_0x3ef7c0(0x160)]='block',document[_0x3ef7c0(0x1bb)](_0x3ef7c0(0x166))[0x0][_0x3ef7c0(0x140)]=!![],document['getElementById']('leaderboard-btn')[_0x3ef7c0(0x140)]=!![],document[_0x3ef7c0(0x18b)](_0x3ef7c0(0x1b1))['addEventListener'](_0x3ef7c0(0x16b),function(){var _0x2b870e=_0x3ef7c0;document[_0x2b870e(0x18b)](_0x2b870e(0x192))[_0x2b870e(0x198)]==''?document['getElementById'](_0x2b870e(0x192))['style'][_0x2b870e(0x1e4)]='2px\x20solid\x20red':(localStorage[_0x2b870e(0x1a9)](_0x2b870e(0x15b),_0x3b169f(document[_0x2b870e(0x18b)](_0x2b870e(0x192))[_0x2b870e(0x198)])),document[_0x2b870e(0x18b)](_0x2b870e(0x14d))[_0x2b870e(0x17b)][_0x2b870e(0x1a8)]='',_0x207093(_0x2b870e(0x13e))[_0x2b870e(0x147)](),document['getElementById'](_0x2b870e(0x15b))[_0x2b870e(0x17b)]['display']=_0x2b870e(0x1e8),document[_0x2b870e(0x1bb)](_0x2b870e(0x166))[0x0][_0x2b870e(0x140)]=![],document['getElementById'](_0x2b870e(0x194))['disabled']=![],_0x3cd5d9()),document['getElementById'](_0x2b870e(0x192))[_0x2b870e(0x186)](_0x2b870e(0x1ab),function(){var _0x34188e=_0x2b870e;document[_0x34188e(0x18b)]('username-input')[_0x34188e(0x17b)][_0x34188e(0x1e4)]='';});}));}),_0x207093(_0x25fb4d(0x1e3))[_0x25fb4d(0x16b)](function(){var _0x6564db=_0x25fb4d,_0x2c7691=_0x207093(this);_0x2c7691[_0x6564db(0x15a)](_0x6564db(0x1df))?(_0x2c7691[_0x6564db(0x1a5)](_0x6564db(0x1df))[_0x6564db(0x154)](_0x6564db(0x1bf)),_0x483435=![]):(_0x2c7691[_0x6564db(0x1a5)]('sound-off')['addClass'](_0x6564db(0x1df)),_0x483435=!![]);_0x5e0bd7&&localStorage['setItem'](_0x6564db(0x1be),_0x483435);for(var _0x5dae0a in _0x3bdae5[_0x6564db(0x169)]){_0x3bdae5[_0x6564db(0x169)][_0x6564db(0x1eb)](_0x5dae0a)&&(_0x3bdae5['sounds'][_0x5dae0a][_0x6564db(0x1e0)]=!_0x483435);}}),_0x207093(_0x25fb4d(0x175))['click'](function(){var _0x1c57dc=_0x25fb4d;_0x207093(_0x1c57dc(0x13e))[_0x1c57dc(0x147)](),_0x207093(_0x1c57dc(0x155))['hide'](),_0x207093('#leaderboard')[_0x1c57dc(0x193)]();}),_0x207093(_0x25fb4d(0x1bd))[_0x25fb4d(0x16b)](function(){var _0x2ec221=_0x25fb4d;_0x207093(_0x2ec221(0x162))[_0x2ec221(0x147)](),_0x207093(_0x2ec221(0x155))[_0x2ec221(0x193)](),_0x207093('#menu')[_0x2ec221(0x193)]();});var _0x43ef5e=![];_0x207093(_0x25fb4d(0x161))[_0x25fb4d(0x16b)](function(){var _0x13e6bf=_0x25fb4d;_0x43ef5e==![]&&(_0x207093(_0x13e6bf(0x13e))[_0x13e6bf(0x147)](),_0x3cd5d9(),_0x43ef5e=!![]);}),_0x207093('.restart')['click'](function(){var _0x4e49bd=_0x25fb4d;_0x207093('#game-over')[_0x4e49bd(0x147)](),_0x207093('#canvas')[_0x4e49bd(0x193)](),_0x3cd5d9();}),_0x207093(_0x25fb4d(0x181))[_0x25fb4d(0x16b)](function(){var _0x43eead=_0x25fb4d;_0x207093(_0x43eead(0x1ce))[_0x43eead(0x147)](),_0x207093(_0x43eead(0x13e))[_0x43eead(0x193)]();}),_0x3bdae5[_0x25fb4d(0x143)]();}(jQuery));function _0x48fb(){var _0xea2d13=['296GHOwmz','downloadAll','then','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','charCode','hide','imgs/Tarmac-Start-Logo.png','isJumping','json','random','reset','menu','catch','sheet','#progress','touchstart','abs','loop','addClass','#canvas','framesPerRow','imgs/layer1.png','splice','canplay','hasClass','username','image','oRequestAnimationFrame','player','startsWith','display','#jump','#leaderboard','trmc_','html','round','startButton','1848330cnzdeq','advance','sounds','save','click','play','error','imgs/barrier-schere.png','loaded','imgs/musik.mp3','innerHTML','anim','space','userAgent','#leaderboard-btn','grass','barrier-spike','body','getContext','min','style','max','isFalling','Highscore:\x20','loading','Score:\x20','.home','type','imgs/walkanim.png','mobileclick','progress','addEventListener','getItem','/playerStats/','true','width','getElementById','bglayer1','name','touchend','minDist','imgs/barrier-spike.png','onkeyup','username-input','show','leaderboard-btn','imgs','zoom','now','value','37610XIavcM','playSound','jumpAnim','jumpDy','89406BiodpL','onload','16px\x20arial,\x20sans-serif','restore','application/json','imgs/Gameover.png','imgs/Press-Start.png','fallAnim','removeClass','1093647hQFzlx','#main','filter','setItem','auto','focus','gamemusik','webkitRequestAnimationFrame','imgs/grass.png','imgs/Enter-Username.png','10269AtwanR','username-submit','discount','speed','clearRect','update','progress-bar','48451hRQdqL','barrier-schere','#score','src','getElementsByClassName','totalAssest','#leaderboard-back','kandi.playSound','sound-off','height','preventDefault','gravity','keyCode','walkAnim','requestAnimationFrame','canvas','frameWidth','length','1094zuYnhd','create','finished','prototype','imgs/bg.png','#game-over','keys','currentTime','main','top','mozRequestAnimationFrame','localStorage','imgs/lolol.png','floor','call','readyState','4xKjINg','2004oEIjwp','fillText','status','GET','Error:','sound-on','muted','wrapper','draw','.sound','border','frameHeight','sqrt','onkeydown','none','1126kVFWII','7MmWszB','hasOwnProperty','836UNdNcz','push','drawImage','55%','cors','#menu','score','disabled','preload'];_0x48fb=function(){return _0xea2d13;};return _0x48fb();}
+(function ($) {
+  // define variables
+  var canvas = document.getElementById('canvas');
+  var ctx = canvas.getContext('2d');
+  var player, score, stop, ticker ;
+  var ground = [], enemies = [];
+  var hallo;
+  // platform variables
+  var platformHeight, platformLength, gapLength;
+  var platformWidth = 32;
+  var platformBase = canvas.height - platformWidth / 2 + 70 ;  // bottom row of the game
+  var platformSpacer = 64;
+
+  let lastFrameTime = 0;
+
+  var canUseLocalStorage = 'localStorage' in window && window.localStorage !== null;
+  var playSound;
+
+  var requestedHighscore;
+
+
+  var discountHasFlown = false;  // New variable to track if discount has flown across the screen
+
+
+  var playSound;
+
+
+  //SPEEEEEED
+
+
+  // Speed for 30 fps
+  /*var character_speed = 18;
+  var player_frame_speed = 1;
+  var sky_speed = 11;
+  var layer1_speed = 12;
+  var layer2_speed = 13;*/
+
+
+  var character_speed = 10;
+  var player_frame_speed = 4;
+  var sky_speed = 7;
+  var layer1_speed = 8;
+  var layer2_speed = 7;
+
+  
+  /**document.getElementById("goleaderboard").addEventListener("click", function() {
+    document.getElementById("showleaderboard").style.display = "block"
+    document.getElementById("game").style.display = "none"
+  
+  }) */
+
+  if (canUseLocalStorage) {
+      playSound = (localStorage.getItem('playSound') === "true")
+    
+      if (playSound) {
+        $('.sound').addClass('sound-on').removeClass('sound-off');
+      }
+      else {
+        $('.sound').addClass('sound-off').removeClass('sound-on');
+      }
+    }
+    
+
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    document.getElementsByClassName("wrapper")[0].style.top = "-60px"
+    document.body.style.zoom = "55%"
+  
+  } 
+
+
+  /**
+   * Get a random number between range
+   * @param {integer}
+   * @param {integer}
+   */
+  function rand(low, high) {
+    return Math.floor( Math.random() * (high - low + 1) + low );
+  }
+  
+  /**
+   * Bound a number between range
+   * @param {integer} num - Number to bound
+   * @param {integer}
+   * @param {integer}
+   */
+  function bound(num, low, high) {
+    return Math.max( Math.min(num, high), low);
+  }
+  
+  /**
+   * Asset pre-loader object. Loads all images
+   */
+  var assetLoader = (function() {
+    // images dictionary
+    this.imgs        = {
+      'bg'           : 'imgs/bg.png',
+      'bglayer1'      : 'imgs/layer1.png',
+      'discount'      : 'imgs/lolol.png',
+      'username'         : 'imgs/Enter-Username.png',
+      'game2over'         : 'imgs/Gameover.png',
+      'pressstart'         : 'imgs/Press-Start.png',
+      'tarmacstartlogo'         : 'imgs/Tarmac-Start-Logo.png',
+      'leaderboardtarmac'         : 'imgs/Tarmac-Leaderboard.png',
+      'grass'         : 'imgs/grass.png',
+      'avatar_normal' : 'imgs/walkanim.png',
+      'barrier-monkey' : 'imgs/barrier-monkey.png',
+      'barrier-schere' : 'imgs/barrier-schere.png',
+      'barrier-spike'  : 'imgs/barrier-spike.png'
+    };
+
+    this.sounds      = {
+      'gamemusik'      : 'imgs/musik.mp3'
+    };
+  
+  
+    var assetsLoaded = 0;                                // how many assets have been loaded
+    var numImgs      = Object.keys(this.imgs).length;
+    var numSounds    = Object.keys(this.sounds).length; 
+    this.totalAssest = numImgs + numSounds;              
+
+    this.totalAssest = numImgs;                          // total number of assets
+  
+    /**
+     * Ensure all assets are loaded before using them
+     * @param {number} dic  - Dictionary name ('imgs', 'sounds', 'fonts')
+     * @param {number} name - Asset name in the dictionary
+     */
+    function assetLoaded(dic, name) {
+      // don't count assets that have already loaded
+      if (this[dic][name].status !== 'loading') {
+        return;
+      }
+  
+      this[dic][name].status = 'loaded';
+      assetsLoaded++;
+  
+      // progress callback
+      if (typeof this.progress === 'function') {
+        this.progress(assetsLoaded, this.totalAssest);
+      }
+  
+      // finished callback
+      if (assetsLoaded === this.totalAssest && typeof this.finished === 'function') {
+        this.finished();
+      }
+    }
+  
+      /**
+   * Check the ready state of an Audio file.
+   * @param {object} sound - Name of the audio asset that was loaded.
+   */
+    function _checkAudioState(sound) {
+    if (this.sounds[sound].status === 'loading' && this.sounds[sound].readyState === 4) {
+      assetLoaded.call(this, 'sounds', sound);
+    }
+  }
+
+  
+    /**
+     * Create assets, set callback for asset loading, set asset source
+     */
+    this.downloadAll = function() {
+      var _this = this;
+      var src;
+  
+      // load images
+      for (var img in this.imgs) {
+        if (this.imgs.hasOwnProperty(img)) {
+          src = this.imgs[img];
+  
+          // create a closure for event binding
+          (function(_this, img) {
+            _this.imgs[img] = new Image();
+            _this.imgs[img].status = 'loading';
+            _this.imgs[img].name = img;
+            _this.imgs[img].onload = function() { assetLoaded.call(_this, 'imgs', img) };
+            _this.imgs[img].src = src;
+          })(_this, img);
+        }
+      }
+
+      for (var sound in this.sounds) {
+        if (this.sounds.hasOwnProperty(sound)) {
+          src = this.sounds[sound];
+  
+          // create a closure for event binding
+          (function(_this, sound) {
+            _this.sounds[sound] = new Audio();
+            _this.sounds[sound].status = 'loading';
+            _this.sounds[sound].name = sound;
+            _this.sounds[sound].addEventListener('canplay', function() {
+              _checkAudioState.call(_this, sound);
+            });
+            _this.sounds[sound].src = src;
+            _this.sounds[sound].preload = 'auto';
+            _this.sounds[sound].load();
+            _this.sounds[sound].volume = 0.3;
+
+          })(_this, sound);
+        }
+      }
+  
+      
+        
+    }
+  
+    return {
+      imgs: this.imgs,
+      sounds: this.sounds,
+      totalAssest: this.totalAssest,
+      downloadAll: this.downloadAll
+    };
+  })();
+  
+  /**
+   * Show asset loading progress
+   * @param {integer} progress - Number of assets loaded
+   * @param {integer} total - Total number of assets
+   */
+  assetLoader.progress = function(progress, total) {
+    var pBar = document.getElementById('progress-bar');
+    pBar.value = progress / total;
+    document.getElementById('p').innerHTML = Math.round(pBar.value * 100) + "%";
+  }
+  
+  /**
+   * Load the main menu
+   */
+  assetLoader.finished = function() {
+    mainMenu();
+  }
+  
+  /**
+   * Creates a Spritesheet
+   * @param {string} - Path to the image.
+   * @param {number} - Width (in px) of each frame.
+   * @param {number} - Height (in px) of each frame.
+   */
+  function SpriteSheet(path, frameWidth, frameHeight) {
+    this.image = new Image();
+    this.frameWidth = frameWidth;
+    this.frameHeight = frameHeight;
+  
+    // calculate the number of frames in a row after the image loads
+    var self = this;
+    this.image.onload = function() {
+      self.framesPerRow = Math.floor(self.image.width / self.frameWidth);
+    };
+  
+    this.image.src = path;
+  }
+  
+  /**
+   * Creates an animation from a spritesheet.
+   * @param {SpriteSheet} - The spritesheet used to create the animation.
+   * @param {number}      - Number of frames to wait for before transitioning the animation.
+   * @param {array}       - Range or sequence of frame numbers for the animation.
+   * @param {boolean}     - Repeat the animation once completed.
+   */
+  function Animation(spritesheet, frameSpeed, startFrame, endFrame, loop = true) {
+    var animationSequence = [];  // Array holding the order of the animation
+    var currentFrame = 0;        // The current frame to draw
+    var counter = 0;             // Keep track of frame rate
+    var stopped = false;         // Animation stop flag
+    // start and end range for frames
+    for (var frameNumber = startFrame; frameNumber <= endFrame; frameNumber++)
+      animationSequence.push(frameNumber);
+    
+    /**234
+     * Update the animation
+     */
+    this.update = function() {
+      if (stopped) return; // Stop updating if the animation is stopped
+      
+      // Update to the next frame if it is time
+      if (counter == (frameSpeed - 1)) {
+        if (currentFrame < animationSequence.length - 1) {
+          currentFrame++;
+        } else if (loop) {
+          currentFrame = 0; // Loop animation
+        } else {
+          stopped = true;  // Stop the animation if it's not looping
+        }
+      }
+  
+      // Update the counter
+      counter = (counter + 1) % frameSpeed;
+    };
+  
+    /**
+     * Draw the current frame
+     * @param {integer} x - X position to draw
+     * @param {integer} y - Y position to draw
+     */
+    this.draw = function(x, y) {
+      var row = Math.floor(animationSequence[currentFrame] / spritesheet.framesPerRow);
+      var col = Math.floor(animationSequence[currentFrame] % spritesheet.framesPerRow);
+  
+      ctx.drawImage(
+        spritesheet.image,
+        col * spritesheet.frameWidth, row * spritesheet.frameHeight,
+        spritesheet.frameWidth, spritesheet.frameHeight,
+        x, y+ 12 ,
+        spritesheet.frameWidth, spritesheet.frameHeight
+      );
+    };
+  
+    /**
+     * Reset the animation to its initial state
+     */
+    this.reset = function() {
+      currentFrame = 0;
+      counter = 0;
+      stopped = false;
+    };
+  }
+  
+  /**
+   * Create a parallax background
+   */
+  var background = (function() {
+    var sky   = {};
+    var bglayer1 = {};
+    var bglayer2 = {}
+    var discount = {}
+
+  
+  
+    /**
+     * Draw the backgrounds to the screen at different speeds
+     */
+    this.draw = function() {
+
+      // Pan background
+      sky.x -= sky.speed;
+      bglayer1.x -= bglayer1.speed;
+      bglayer2.x -= bglayer2.speed;
+
+      ctx.drawImage(assetLoader.imgs.bg, 0, 0);
+
+      ctx.drawImage(assetLoader.imgs.bglayer1, bglayer1.x, bglayer1.y);
+      ctx.drawImage(assetLoader.imgs.bglayer1, bglayer1.x + canvas.width, bglayer1.y);
+
+      // Move and draw the discount image if score is 100 and it hasn't flown yet
+      if (score >= 5000 && !discountHasFlown) {
+        discount.x -= discount.speed;
+        ctx.drawImage(assetLoader.imgs.discount, discount.x, discount.y);
+
+        // Check if the discount image has completely left the screen
+        if (discount.x + assetLoader.imgs.discount.width < 0) {
+          discountHasFlown = true; // Set to true once it has flown off the screen
+        }
+      }
+
+      // If the image scrolled off the screen, reset
+      if (bglayer1.x + assetLoader.imgs.bglayer1.width <= 0)
+        bglayer1.x = 0;
+    };
+
+    /**
+     * Reset background to zero
+     */
+    this.reset = function()  {
+      bglayer1.x = 0;
+      bglayer1.y = 0;
+      bglayer1.speed = layer1_speed;
+
+      bglayer2.x = 0;
+      bglayer2.y = 0;
+      bglayer2.speed = layer2_speed;
+
+      discount.x = canvas.width;  // Start off-screen to the right
+      discount.y = 0;
+      discount.speed = layer2_speed;
+      discountHasFlown = false;  // Reset for the next game
+    };
+
+    return {
+      draw: this.draw,
+      reset: this.reset
+    };
+  })();
+  
+  /**
+   * A vector for 2d space.
+   * @param {integer} x - Center x coordinate.
+   * @param {integer} y - Center y coordinate.
+   * @param {integer} dx - Change in x.
+   * @param {integer} dy - Change in y.
+   */
+  function Vector(x, y, dx, dy) {
+    // position
+    this.x = x || 0;
+    this.y = y || 0;
+    // direction
+    this.dx = dx || 0;
+    this.dy = dy || 0;
+  }
+  
+  /**
+   * Advance the vectors position by dx,dy
+   */
+  Vector.prototype.advance = function(deltaTime) {
+    this.x += this.dx;
+    this.y += this.dy;
+  };
+  
+  /**
+   * Get the minimum distance between two vectors
+   * @param {Vector}
+   * @return minDist
+   */
+  Vector.prototype.minDist = function(vec) {
+    var minDist = Infinity;
+    var max     = Math.max( Math.abs(this.dx), Math.abs(this.dy),
+                            Math.abs(vec.dx ), Math.abs(vec.dy ) );
+    var slice   = 1 / max;
+  
+    var x, y, distSquared;
+  
+    // get the middle of each vector
+    var vec1 = {}, vec2 = {};
+    vec1.x = this.x + this.width/2;
+    vec1.y = this.y + this.height/2;
+    vec2.x = vec.x + vec.width/2;
+    vec2.y = vec.y + vec.height/2;
+    for (var percent = 0; percent < 1; percent += slice) {
+      x = (vec1.x + this.dx * percent) - (vec2.x + vec.dx * percent);
+      y = (vec1.y + this.dy * percent) - (vec2.y + vec.dy * percent);
+      distSquared = x * x + y * y;
+  
+      minDist = Math.min(minDist, distSquared);
+    }
+  
+    return Math.sqrt(minDist);
+  };
+  
+  /**
+   * The player object
+   */
+  var player = (function(player) {
+    player.width = 200;
+    player.height = 200;
+    player.speed = character_speed;
+
+    // Springen
+    player.gravity = 1.3;
+    player.dy = 0;
+    player.jumpDy = -15;
+    player.isFalling = false;
+    player.isJumping = false;
+
+    // Spritesheets
+    player.sheet = new SpriteSheet('imgs/walkanim.png', player.width, player.height);
+    player.walkAnim = new Animation(player.sheet, player_frame_speed, 0, 14, true); // Laufanimation mit Loop
+    player.jumpAnim = new Animation(player.sheet, 4, 15, 24, false); // Sprunganimation ohne Loop
+    player.fallAnim = new Animation(player.sheet, 8, 20, 24, false); // Fallanimation mit Loop
+    player.anim = player.walkAnim;
+    
+    Vector.call(player, 0, 0, 0, player.dy);
+
+    /**
+     * Update the player's position and animation
+     */
+    player.update = function(deltaTime) {
+      // Start the jump if space is pressed and the player is on the ground
+      if (KEY_STATUS.space && player.dy === 0 && !player.isJumping) {
+        player.dy = player.jumpDy;
+        player.anim = player.jumpAnim;
+        player.anim.reset();  // Reset the animation so it starts from the first frame
+
+        player.isJumping = true;
+      }
+  
+      this.advance(deltaTime);
+  
+      // Apply gravity
+      if (player.isFalling || player.isJumping) {
+          player.dy += player.gravity;
+      }
+  
+      // If the player is falling
+      if (player.dy > 0 && player.isJumping) {
+          player.isFalling = true;
+          player.isJumping = false;
+      }
+  
+      // Check if player is on the ground
+      if (player.dy === 0) {
+          player.isFalling = false;
+  
+          // Switch back to walking animation when the player is on the ground
+          if (player.anim !== player.walkAnim) {
+              player.anim = player.walkAnim;
+          }
+      }
+  
+      player.anim.update();
+  };
+  
+
+    /**
+     * Draw the player at its current position
+     */
+    player.draw = function() {
+      player.anim.draw(player.x, player.y);
+    };
+
+    /**
+     * Reset the player's position
+     */
+    player.reset = function() {
+      player.x = 64;
+      player.y = 150;
+      player.isJumping = false; // Ensure jumping state is reset
+    };
+
+    return player;
+})(Object.create(Vector.prototype));
+
+  
+  /**
+   * Sprites are anything drawn to the screen (ground, enemies, etc.)
+   * @param {integer} x - Starting x position of the player
+   * @param {integer} y - Starting y position of the player
+   * @param {string} type - Type of sprite
+   */
+  function Sprite(x, y, type) {
+    if(type == "barrier-schere"){
+      y = y
+      x = x+75
+    }
+
+    this.x      = x;
+    this.y      = y;
+    this.width  = platformWidth;
+    this.height = platformWidth;
+    this.type   = type;
+    Vector.call(this, x, y, 0, 0);
+  
+    /**
+     * Update the Sprite's position by the player's speed
+     */
+    this.update = function() {
+      this.dx = -player.speed;
+      this.advance();
+    };
+  
+    /**
+     * Draw the sprite at it's current position
+     */
+    this.draw = function() {
+      ctx.save();
+      ctx.translate(0.5,0.5);
+      ctx.drawImage(assetLoader.imgs[this.type], this.x, this.y);
+      ctx.restore();
+    };
+  }
+  Sprite.prototype = Object.create(Vector.prototype);
+  
+  /**
+   * Get the type of a platform based on platform height
+   * @return Type of platform
+   */
+
+
+  
+  /**
+   * Update all ground position and draw. Also check for collision against the player.
+   */
+  function updateGround() {
+    // animate ground
+    player.isFalling = true;
+    for (var i = 0; i < ground.length; i++) {
+      ground[i].update();
+      ground[i].draw();
+  
+      // stop the player from falling when landing on a platform
+      var angle;
+      if (player.minDist(ground[i]) <= player.height/2 + platformWidth/2 &&
+          (angle = Math.atan2(player.y - ground[i].y, player.x - ground[i].x) * 180/Math.PI) > -130 &&
+          angle < -50) {
+        player.isJumping = false;
+        player.isFalling = false;
+        player.y = ground[i].y - player.height + 5;
+        player.dy = 0;
+      }
+    }
+  
+    // remove ground that have gone off screen
+    if (ground[0] && ground[0].x < -platformWidth) {
+      ground.splice(0, 1);
+    }
+  }
+  
+  function updateEnemies(deltaTime) {
+    // animate enemies
+    for (var i = 0; i < enemies.length; i++) {
+      enemies[i].update(deltaTime);
+      enemies[i].draw();
+  
+      if (player.minDist(enemies[i]) <= (player.width - 100) - 20) {  // Passen Sie die Werte nach Bedarf an
+        gameOver();
+      }
+      
+      }
+    // remove enemies that have gone off screen
+    if (enemies[0] && enemies[0].x < -platformWidth) {
+      enemies.splice(0, 1);
+    }
+  } 
+  
+    
+  /**
+   * Update the players position and draw
+   */
+function updatePlayer(deltaTime) {
+  player.update(deltaTime);
+  player.draw();
+
+  // game over
+  if (player.y + player.height >= canvas.height) {
+    gameOver();
+  }
+}
+  
+function need(length) {
+  let result = '';
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const charactersLength = characters.length;
+  let counter = 0;
+  while (counter < length) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    counter += 1;
+  }
+  return result;
+}
+  /**
+   * Spawn new sprites off screen
+   */
+  hilfsvariable = 50;
+  kenodev_was_here = 'trmc_'
+  function spawnSprites() {
+    // Erhöhung des Scores
+    score++;
+    scoreTEST = score + 25;
+    
+    // Kodierung des Scores
+    const randomFactor = Math.floor(Math.random() * 10); // Zufallszahl zwischen 0 und 9
+    const encodedScore = scoreTEST * 44.5 + randomFactor;
+    
+    // Kodierung des Benutzernamens in Base64
+    const encodedUsername = btoa(localStorage.getItem('username')); // btoa() codiert eine Zeichenfolge in Base64
+    
+    // Erstellen des Tokens
+    kenodev_was_here = `trmc_${encodedScore}_${randomFactor}_${encodedUsername}`;
+
+    // Erzeugen Sie eine lange Plattform ohne Lücken
+    if (platformLength > 0) {
+        var type = "grass";
+        ground.push(new Sprite(
+            canvas.width + platformWidth % player.speed,
+            platformBase - platformHeight * platformSpacer,
+            type
+        ));
+        platformLength--;
+    }
+    spawnEnemySprites();
+    // Stellen Sie sicher, dass die Plattformlänge niemals null wird
+    if (platformLength <= 0) {
+        platformLength = 99999;  // Setzen Sie eine sehr große Zahl, um eine durchgehende Plattform zu gewährleisten
+    }
+}
+  
+  /**
+   * Spawn new environment sprites off screen
+   */
+
+  
+  function spawnEnemySprites() {
+    if (Math.random() > 0.30 && enemies.length < 1 && platformLength > 8 &&
+        (enemies.length ? canvas.width - enemies[enemies.length-1].x >= platformWidth * 3 ||
+         canvas.width - enemies[enemies.length-1].x < platformWidth : true)) {
+
+        // Zufälliger Gegner mit unterschiedlichen Wahrscheinlichkeiten
+        let enemyType;
+        let randomNum = Math.random();
+        
+        if (randomNum < 0.1) {  // 10% Chance für Affen
+            enemyType = "barrier-monkey";
+        } else if (randomNum < 0.55) {  // 45% Chance für Schere
+            enemyType = "barrier-schere";
+        } else {  // 45% Chance für Spike
+            enemyType = "barrier-spike";
+        }
+
+        enemies.push(new Sprite(
+            canvas.width + platformWidth % player.speed,
+            platformBase - platformHeight * platformSpacer - platformWidth - 35,  // Affe nach oben verschieben
+            enemyType
+        ));
+    }
+}
+  
+
+
+  previousValue = 50;
+
+  /**
+   * Game loop
+   */
+  function animate(time) {
+    if (!stop) {
+        setTimeout(function() {
+            requestAnimFrame(animate);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Delta-Time berechnen
+            const deltaTime = clamp(time - lastFrameTime, 0, 1/60)
+            lastFrameTime = time;
+
+            background.draw(deltaTime);
+
+            // Zeichne und aktualisiere das Gras zuerst
+            updateGround(deltaTime);
+
+            // Zeichne und aktualisiere die Gegner danach
+            updateEnemies(deltaTime);
+
+            // Zeichne und aktualisiere den Spieler zuletzt, damit er oben angezeigt wird
+            updatePlayer(deltaTime);
+
+            // Zeichne den Score
+            if (requestedHighscore !== undefined) {
+                ctx.fillText('Highscore: ' + requestedHighscore, canvas.width - 150, 30);
+            }
+            ctx.fillText('Score: ' + score, 30, 30);
+
+            // Neue Sprite spawnen
+            if (ticker % Math.floor(platformWidth / player.speed) === 0) {
+                spawnSprites();
+            }
+
+            // Erhöhe die Spieler-Geschwindigkeit nur beim Springen
+            if (ticker > (Math.floor(platformWidth / player.speed) * player.speed * 20) && player.dy !== 0) {
+                player.speed = bound(player.speed + 2, 0, 30);
+                player.walkAnim.frameSpeed = Math.floor(platformWidth / player.speed) - 1;
+
+                // Reset ticker
+                ticker = 0;
+
+                // Spawne eine Plattform, um die durch die Erhöhung der Geschwindigkeit entstandene Lücke zu füllen
+                if (gapLength === 0) {
+                    var type = "grass";
+                    ground.push(new Sprite(
+                        canvas.width + platformWidth % player.speed,
+                        platformBase - platformHeight * platformSpacer,
+                        type
+                    ));
+                    platformLength--;
+                }
+            }
+
+            ticker++;
+        }, 1000 / 45);
+    }
+}
+  
+  /**
+   * Keep track of the spacebar events
+   */
+  var KEY_CODES = {
+    32: 'space'
+  };
+  var KEY_STATUS = {};
+  for (var code in KEY_CODES) {
+    if (KEY_CODES.hasOwnProperty(code)) {
+       KEY_STATUS[KEY_CODES[code]] = false;
+    }
+  }
+  document.onkeydown = function(e) {
+    var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
+    if (KEY_CODES[keyCode]) {
+      e.preventDefault();
+      KEY_STATUS[KEY_CODES[keyCode]] = true;
+    }
+  };
+  document.onkeyup = function(e) {
+    var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
+    if (KEY_CODES[keyCode]) {
+      e.preventDefault();
+      KEY_STATUS[KEY_CODES[keyCode]] = false;
+    }
+  };
+ 
+  document.getElementById("mobileclick").addEventListener('touchstart', function() {
+    KEY_STATUS[KEY_CODES[32]] = true;   
+  })
+  
+  document.getElementById("mobileclick").addEventListener('touchend', function() {
+    KEY_STATUS[KEY_CODES[32]] = false;   
+  })
+
+  
+  /**
+   * Request Animation Polyfill
+   */
+  var requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame    ||
+            window.oRequestAnimationFrame      ||
+            window.msRequestAnimationFrame     ||
+            function(callback, element){
+              window.setTimeout(callback, 1000 / 60);
+            };
+  })();
+  
+  function clamp(value, min, max) {
+    return Math.min(Math.max(value, min), max);
+  }
+
+  /**
+   * Show the main menu after loading all assets
+   */
+  function mainMenu() {
+
+    assetLoader.sounds.gamemusik.loop = true;
+
+    if(localStorage.getItem('username') != null){
+      fetch(`/playerStats/${localStorage.getItem('username')}`, {
+        method: 'GET',
+        mode: "cors",
+        headers: {
+          'Content-Type': 'application/json',
+        },
+
+      })
+      .then(async function(response) {
+        const body2 = await response.json();
+        if(body2.player.score != undefined){
+          requestedHighscore = body2.player.score
+        }
+
+      }).catch(function(error) {
+          console.error('Error:', error);
+      });
+    }
+
+
+    for (var sound in assetLoader.sounds) {
+      if (assetLoader.sounds.hasOwnProperty(sound)) {
+        assetLoader.sounds[sound].muted = !playSound;
+      }
+    }
+      
+
+    $('#progress').hide();
+    $('#main').show();
+    $('#menu').addClass('main');
+    $('.sound').show();
+  }
+  
+  /**
+   * Start the game - reset all variables and entities, spawn ground and water.
+   */
+  function startGame() { 
+
+
+    ground = [];
+    enemies = [];
+    player.reset();
+    ticker = 0;
+    stop = false;
+    score = 0;
+    platformHeight = 2;
+    platformLength = 15;
+    player.speed = character_speed;
+    gapLength = 0;
+
+    ctx.font = '16px arial, sans-serif';
+  
+    for (var i = 0; i < 30; i++) {
+      ground.push(new Sprite(i * (platformWidth-3), platformBase - platformHeight * platformSpacer, 'grass'));
+    }
+  
+
+  
+    background.reset();
+    
+
+    animate(performance.now());
+
+    assetLoader.sounds.gamemusik.currentTime = 0;
+    assetLoader.sounds.gamemusik.play();
+
+  
+  }
+  
+  /**
+   * End the game and restart
+   */
+  function gameOver() {
+    
+    fetch(`/playerUpdate/${localStorage.getItem('username')}/${score}/${kenodev_was_here}`, {
+      method: 'POST',
+      mode: "cors",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+    .then(async function(response) {
+        const body2 = await response.json();
+        requestedHighscore = body2.score;
+        ctx.fillText('Highscore: ' + requestedHighscore, canvas.width - 150, 30);
+
+        //document.getElementById("subtitle").innerText = `You ran ${score} meters.\nYour highscore is ${body2.oldscore} meters.`;
+
+    }).catch(function(error) {
+        console.error('Error:', error);
+    });
+
+    stop = true;
+
+    $('#score').html(score);
+
+    $('#menu').hide();
+    $('#canvas').hide()
+    $('#game-over').show();
+}
+
+  
+  /**
+   * Click handlers for the different menu screens
+   */
+
+function addAtSymbol(name) {
+    // Überprüfen, ob der Name bereits mit '@' beginnt
+    if (name.startsWith('@')) {
+        // Wenn ja, gib den Namen unverändert zurück
+        return name;
+    } else {
+        // Wenn nicht, füge '@' am Anfang hinzu und gib den modifizierten Namen zurück
+        return '@' + name;
+    }
+}
+
+
+  $('.startButton').click(function() {
+    if(localStorage.getItem("username")){
+      $('#menu').hide();
+      startGame();
+    }else{
+      document.getElementById('menu').style.filter = "blur(5px)"
+      document.getElementById('username').style.display = 'block';
+      document.getElementsByClassName('startButton')[0].disabled = true;
+      document.getElementById('leaderboard-btn').disabled = true;
+      document.getElementById('username-submit').addEventListener("click", function(){
+        if(document.getElementById('username-input').value == ''){
+          document.getElementById('username-input').style.border = "2px solid red"
+        }else{
+          
+          localStorage.setItem('username', addAtSymbol(document.getElementById('username-input').value))
+          document.getElementById('menu').style.filter = ""
+          $('#menu').hide();
+          document.getElementById('username').style.display = 'none';
+          document.getElementsByClassName('startButton')[0].disabled = false;
+          document.getElementById('leaderboard-btn').disabled = false;
+
+          startGame();
+        }
+        
+        document.getElementById('username-input').addEventListener("focus", function(){
+          document.getElementById('username-input').style.border = ""
+        })
+      })
+    }
+  });
+
+
+  $('.sound').click(function() {
+    var $this = $(this);
+    // sound off
+    if ($this.hasClass('sound-on')) {
+      $this.removeClass('sound-on').addClass('sound-off');
+      playSound = false;
+    }
+    // sound on
+    else {
+      $this.removeClass('sound-off').addClass('sound-on');
+      playSound = true;
+    }
+  
+    if (canUseLocalStorage) {
+      localStorage.setItem('playSound', playSound);
+    }
+  
+    // mute or unmute all sounds
+    for (var sound in assetLoader.sounds) {
+      if (assetLoader.sounds.hasOwnProperty(sound)) {
+        assetLoader.sounds[sound].muted = !playSound;
+      }
+    }
+  });
+
+  $('#leaderboard-btn').click(function(){
+    $('#menu').hide();
+    $('#canvas').hide()
+    $('#leaderboard').show();
+  })
+
+  $('#leaderboard-back').click(function() {
+    $('#leaderboard').hide();
+    $('#canvas').show()
+
+    $('#menu').show();
+  });
+
+  var gameON = false
+  $('#jump').click(function() {
+    if(gameON == false){
+      $('#menu').hide();
+      startGame();
+      gameON = true
+    }
+  });
+
+  $('.restart').click(function() {
+    $('#game-over').hide();
+    $('#canvas').show()
+
+
+    startGame();
+  });
+
+  $('.home').click(function() {
+    $('#game-over').hide();
+    $('#menu').show();
+  });
+  
+  assetLoader.downloadAll();
+  })(jQuery);
