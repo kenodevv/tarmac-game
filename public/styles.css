@@ -1,0 +1,984 @@
+@font-face {
+  font-family: 'VCR OSD Mono';
+  src: url('fonts/VCR_OSD_Mono.woff2') format('woff2'),
+       url('fonts/VCR_OSD_Mono.woff') format('woff'),
+       url('fonts/VCR_OSD_Mono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+body {
+  overflow: hidden;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'VCR OSD Mono', monospace;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: url('/imgs/custom-cursor.png'); /* Fallback auf den Standardcursor */
+
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid rgb(0, 0, 0);
+  z-index: 2;
+  background-color: white;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: calc(100vh - 5px); /* 20px für den Rand */
+  border: 2px solid black;
+  z-index: 1;
+  width: auto;
+  height: auto;
+}
+
+#main {
+  position: relative;
+}
+
+#leaderboard {
+  position: relative;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+li {
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 800px; /* Maximale Breite */
+  width: 100%; /* Sorgt dafür, dass es auf kleineren Bildschirmen skaliert */
+  margin: auto; /* Zentriert das Element horizontal */
+
+}
+
+.wrapper:before {
+  content: '';
+  display: block;
+  padding-top: 56.25%; /* Erzeugt ein 16:9 Verhältnis 56.25*/
+}
+
+
+#progress {
+  height: 12%;
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+
+}
+#percent {
+  color: white;
+  font-weight: bold;
+  font-family: 'VCR OSD Mono', monospace;
+}
+#progress-bar {
+  color: #1c1c1a;
+  width: 15vw;
+}
+
+.newStyle{
+  font-size: 35px; /* Proportionale Schriftgröße */
+  text-align: center;
+  width: auto; /* Weitere leichte Reduzierung der Breite */
+  font-family: 'VCR OSD Mono', monospace;
+  font-weight: bolder;
+  color: #1c1c1a;
+}
+
+
+
+.button {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  color: #1c1c1a;
+  background-color: transparent; /* Kein Hintergrund */
+  cursor: pointer;
+}
+
+
+
+.artwork, .music, .developer {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.back, .back:hover {
+  margin-top: 10px;
+}
+
+#game-over {
+  background-image: url('/imgs/Tarmac-Leaderboard.png');
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  max-width: 800px;
+  max-height: 450px;
+  border: 1px solid  #ffffff;
+  transform: translate(-50%, -50%);
+  top: 50%; /* Basisposition */
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+
+#game-over::before {
+  content: '';
+  position: absolute; /* Position innerhalb des Containers */
+  top: 0; /* Startet am oberen Rand des Containers */
+  left: 0; /* Startet am linken Rand des Containers */
+  width: 100%; /* Deckt die gesamte Breite des Containers ab */
+  height: 100%; /* Deckt die gesamte Höhe des Containers ab */
+  background-image: url('/imgs/Tarmac-Leaderboard.png');
+  background-size: cover; /* Bild vollständig abdecken */
+  background-position: center; /* Bild zentrieren */
+  filter: blur(3px); /* Grad der Unschärfe */
+  z-index: -1; /* Hintergrund hinter dem Inhalt */
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 150px;
+}
+
+#meterscore {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #1c1c1a;
+  text-align: center;
+}
+
+.buttons {
+  color: #1c1c1a;
+  margin-top: -10px;
+  display: flex;
+  gap: 10px;
+}
+
+.button-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-icon:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  fill: none;
+  stroke: #222;
+  stroke-width: 2;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  #content-container {
+    margin-top: 120px;
+    gap: 10px;
+  }
+
+  #meterscore {
+    font-size: 30px;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  #content-container {
+    margin-top: 100px;
+    gap: 8px;
+  }
+
+  #meterscore {
+    font-size: 25px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  #content-container {
+    margin-top: 80px;
+    gap: 5px;
+  }
+
+  #meterscore {
+    font-size: 20px;
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+#logo-over {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: auto;
+  width: 90%;
+}
+
+
+
+.button2 {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #222;
+  color: white;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: #222;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+#name{
+  position: absolute;
+  bottom: 200px;
+  color: white;
+  background-color: #222;
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 150px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+
+.mobileShow { display: none;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobileShow { display: inline;}}
+
+.mobileHide { display: inline;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){  .mobileHide { display: none;}}
+
+
+
+
+
+#header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1rem;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.85rem;
+  color: #141a39;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+#leaderboard {
+  width: 100%;
+  position: relative;
+}
+
+
+.number {
+  width: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.name {
+  text-align: left;
+  font-size: 0.6rem;
+}
+
+
+
+#buttons {
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+
+@media (max-width: 500px) {
+  .items {
+    top: 200px;
+  }
+
+  #username{
+    font-size: 20px;
+  }
+
+}
+
+
+
+/* Anpassungen für sehr kleine Bildschirme */
+@media (max-width: 480px) {
+  .items {
+    width: 50px; /* Optional: Größe der Items verkleinern */
+  }
+  .button-container .sliderButton {
+    font-size: 4vw; /* Größere Schriftgröße für bessere Sichtbarkeit */
+  }
+
+  .button-container .sliderButton:nth-child(1) {
+    right: -5%; /* Weiter nach innen für sehr kleine Bildschirme */
+  }
+
+  .button-container .sliderButton:nth-child(2) {
+    left: -5%; /* Weiter nach innen für sehr kleine Bildschirme */
+  }
+
+}
+.play{
+  position: relative;
+  top: 320px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  font-size: 15px; /* Startgröße */
+  text-align: center; /* Zentriert den Text innerhalb des Elements */
+  width: 145px; /* Stellt sicher, dass die Breite sich über den gesamten Container erstreckt */
+  background-color: #000;
+}
+
+
+@media (max-width: 440px) {
+
+  .items{
+    top: 180px;
+  }
+  .play {
+    width: 150px;
+    top: 260px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  }
+
+  #username{
+    font-size: 20px;
+  }
+
+  #headline {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 25px; 
+  }
+  #subtitle {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 15px; 
+  }
+
+ 
+}
+
+@media (max-width: 370px) {
+
+  .items{
+    top: 160px;
+  }
+  .play {
+    width: 150px;
+    top: 230px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  }
+
+  #username{
+    font-size: 20px;
+  }
+
+  #headline {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 25px; 
+  }
+  #subtitle {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 15px; 
+  }
+
+ 
+}
+
+@media (max-width: 330px) {
+
+  .items{
+    top: 130px;
+  }
+  .play {
+    width: 150px;
+    top: 210px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  }
+
+  #username{
+    font-size: 20px;
+  }
+
+  #headline {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 25px; 
+  }
+  #subtitle {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 15px; 
+  }
+
+ 
+}
+
+@media (max-width: 300px) {
+  .play {
+    width: 150px;
+    top: 130px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  }
+
+  #username{
+    font-size: 20px;
+  }
+  #headline {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 15px; 
+  }
+  #subtitle {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 7px; 
+  }
+
+  
+}
+
+@media (max-width: 200px) {
+  .play {
+    width: 150px;
+    font-size: 10px;
+    top: 80px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  }
+  
+  #headline {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 15px; 
+  }
+  #subtitle {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 7px; 
+  }
+
+  .items .item {
+    width: 30px; /* Optional: Größe der Items verkleinern */
+  }
+
+  .items {
+    top: 50px; /* Optional: Größe der Items verkleinern */
+  }
+  
+  .button-container .sliderButton:nth-child(1) {
+    font-size: 8vw; /* Größere Schriftgröße für bessere Sichtbarkeit */
+
+    right: -28%; /* Anpassung für mittelgroße Bildschirme */
+  }
+
+  .button-container .sliderButton:nth-child(2) {
+    font-size: 8vw; /* Größere Schriftgröße für bessere Sichtbarkeit */
+
+    left: -28%; /* Anpassung für mittelgroße Bildschirme */
+  }
+}
+
+
+@media (max-width: 150px) {
+  .play {
+    width: 75px;
+    height: auto;
+    font-size: 10px;
+    top: 50px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+  }
+
+
+  #headline {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 8px; 
+  }
+  #subtitle {
+    top: 20px; /* Passen Sie den Wert nach Bedarf an, um die Position über den Items zu justieren */
+    font-size: 4px; 
+  }
+
+  .items .item {
+    width: 30px; /* Optional: Größe der Items verkleinern */
+  }
+
+  .items {
+    top: 25px; /* Optional: Größe der Items verkleinern */
+  }
+  
+  .button-container .sliderButton:nth-child(1) {
+    font-size: 7vw; /* Größere Schriftgröße für bessere Sichtbarkeit */
+
+    right: -35%; /* Anpassung für mittelgroße Bildschirme */
+  }
+
+  .button-container .sliderButton:nth-child(2) {
+    font-size: 7vw; /* Größere Schriftgröße für bessere Sichtbarkeit */
+
+    left: -35%; /* Anpassung für mittelgroße Bildschirme */
+  }
+}
+
+
+#username {
+  position: absolute;
+  text-align: center;
+  z-index: 4;
+  display: none;
+
+}
+
+
+#username-submit{
+  font-size: 20px;
+
+  width: 150px;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #222;
+  font-family: 'VCR OSD Mono', monospace;
+  font-weight: bolder;
+  color: #1c1c1a;  
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#username-input{
+  font-size: 20px;
+  font-family: 'VCR OSD Mono', monospace;
+  margin: 30px;
+  color: #000; 
+  background-color: #FFF; 
+  border:1px solid #FFF;  
+  box-shadow: 1px 3px 5px #0000001a; 
+  padding: 6px;
+  outline: none;
+  border-radius: 5px;
+
+}
+
+#leaderboard {
+  max-width: 100%;
+  max-height: calc(100vh - 5px); /* 20px für den Rand */
+  margin: 0 auto; /* Zentriert den Kasten horizontal */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-image: url('/imgs/Tarmac-Leaderboard.png');
+  border: 2px solid black;
+  font-family: 'VCR OSD Mono', monospace;
+
+}
+
+#leaderboard::before {
+  content: '';
+  position: absolute; /* Position innerhalb des Containers */
+  top: 0; /* Startet am oberen Rand des Containers */
+  left: 0; /* Startet am linken Rand des Containers */
+  width: 100%; /* Deckt die gesamte Breite des Containers ab */
+  height: 100%; /* Deckt die gesamte Höhe des Containers ab */
+  background-image: url('/imgs/Tarmac-Leaderboard.png');
+  background-size: cover; /* Bild vollständig abdecken */
+  background-position: center; /* Bild zentrieren */
+  filter: blur(3px); /* Grad der Unschärfe */
+  z-index: -1; /* Hintergrund hinter dem Inhalt */
+}
+
+#leaderboard-title {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px; /* Startgröße */
+}
+
+#leaderboard-btn {
+  position: absolute;
+  top: 25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px; /* Proportionale Schriftgröße */
+  text-align: center;
+  width: auto; /* Weitere leichte Reduzierung der Breite */
+  font-family: 'VCR OSD Mono', monospace;
+  font-weight: bolder;
+  color: #1c1c1a;
+  z-index: 4;
+  transition: font-size 0.3s ease, width 0.3s ease; /* Sanfte Übergänge */
+
+}
+
+/* Bildschirmbreiten bis 800px */
+@media screen and (max-width: 800px) {
+  #leaderboard-btn {
+    top: 24rem; /* Leichte Anpassung der Position */
+    font-size: 30px; /* Minimale Reduzierung der Schriftgröße */
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #leaderboard-btn {
+    top: 22.5rem; /* Leichte Anpassung der Position */
+    font-size: 30px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 700px */
+@media screen and (max-width: 700px) {
+  #leaderboard-btn {
+    top: 21rem; /* Leichte Anpassung der Position */
+    font-size: 27px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #leaderboard-btn {
+    top: 19.5rem; /* Weitere leichte Anpassung der Position */
+    font-size: 27px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 600px */
+@media screen and (max-width: 600px) {
+  #leaderboard-btn {
+    top: 18rem; /* Weitere leichte Anpassung der Position */
+    font-size: 27px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 550px */
+@media screen and (max-width: 550px) {
+  #leaderboard-btn {
+    top: 16.5rem; /* Weitere leichte Anpassung der Position */
+    font-size: 25px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 500px */
+@media screen and (max-width: 500px) {
+  #leaderboard-btn {
+    top: 13rem; /* Weiter nach oben verschoben */
+    font-size: 24px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 450px */
+@media screen and (max-width: 450px) {
+  #leaderboard-btn {
+    top: 11rem; /* Noch weiter nach oben verschoben */
+    font-size: 22px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 400px */
+@media screen and (max-width: 400px) {
+  #leaderboard-btn {
+    top: 9rem; /* Weitere leichte Anpassung der Position */
+    font-size: 20px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #leaderboard-btn {
+    top: 7.5rem; /* Weitere leichte Anpassung der Position */
+    font-size: 18px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+/* Bildschirmbreiten bis 300px */
+@media screen and (max-width: 300px) {
+  #leaderboard-btn {
+    top: 6rem; /* Weiter nach oben verschoben */
+    font-size: 16px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+
+
+#container {
+  position: relative;
+  width: 100%;
+
+  height: calc(100% - 100px); /* Höhe des Kastens abzüglich des Titels und des Buttons */
+  overflow-y: auto; /* Falls der Inhalt den Bereich überschreitet */
+}
+
+
+#leaderboard-back { 
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  font-family: 'VCR OSD Mono', monospace;
+  font-weight: bolder;
+  color: #1c1c1a;
+  margin: 15px auto;
+}
+
+.row {
+  display: flex;
+  align-items: center; /* Zentriert die Elemente vertikal */
+  justify-content: center; /* Zentriert die Elemente horizontal */
+
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #AFAFAF;
+}
+
+.number {
+  width: 10%; /* Ändern Sie die Breite der Nummern */
+  text-align: center; /* Zentrieren Sie den Text horizontal in den Nummern */
+  font-size: 20px; /* Ändern Sie die Schriftgröße der Nummern */
+  font-weight: bold;
+}
+
+.name {
+
+  flex-grow: 1; /* Verwenden Sie flex-grow, um den Namen flexibel zu machen und den verbleibenden Platz einzunehmen */
+  font-size: 18px; /* Ändern Sie die Schriftgröße der Namen */
+}
+
+.score {
+  font-weight: bold;
+
+  margin-right: 25px;
+  width: 20%; /* Ändern Sie die Breite des Scores */
+  text-align: right;
+  font-size: 20px; /* Ändern Sie die Schriftgröße des Scores */
+}
+
+.row:nth-child(1) {
+  background: rgb(252, 233, 125);
+}
+
+.row:nth-child(2) {
+  background: #bdbdbd;
+}
+
+.row:nth-child(3) {
+  background: #ca8948;
+}
+
+.row:nth-child(11) {
+  color: white;
+  background: #000000;
+}
+@media screen and (max-width: 768px) {
+  .number {
+    width: auto;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  .score {
+    width: auto;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+
+  #leaderboard-back {
+    font-size: 15px;
+  }
+
+  #leaderboard-title {
+    font-size: 15px; /* Ändern Sie die Schriftgröße des Titels für kleinere Bildschirme */
+    top: 10%; /* Ändern Sie die Position des Titels, um ihn näher an den oberen Rand zu verschieben */
+  }
+
+}
+
+
+
+@media screen and (max-height: 650px) {
+  .play{
+    top: 250px;
+  }
+  #leaderboard-btn{
+    top: 380px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .row {
+    font-size: 12px; /* Reduziert die Schriftgröße der Zeilen */
+    height: 30px; /* Verringert die Höhe der Zeilen */
+  }
+  
+  .number {
+    width: 8%; /* Ändert die Breite der Nummern */
+    font-size: 15px; /* Reduziert die Schriftgröße der Nummern */
+  }
+  
+  .name {
+    flex-grow: 2; /* Vergrößert den Namenbereich */
+    font-size: 10px; /* Reduziert die Schriftgröße der Namen */
+  }
+  
+  .score {
+    width: 12%; /* Ändert die Breite des Scores */
+    font-size: 15px; /* Reduziert die Schriftgröße des Scores */
+  }
+  #leaderboard-back {
+    font-size: 15px;
+  }
+
+  #leaderboard-btn{
+    top: 400px;
+  }
+
+  .play{
+    top: 270px;
+  }
+
+
+}
+
+@media screen and (max-height: 420px) {
+  .play{
+    top: 250px;
+  }
+  #leaderboard-btn{
+    top: 360px;
+  }
+}
+
+#trophy{
+  position: relative;
+  left: -5%;
+  width: 30px;
+  
+}
+
+#footertext{
+  position: absolute;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  bottom: 00px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: "";
+}
+
+#footertext {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Falls du den gesamten Inhalt horizontal zentrieren möchtest */
+}
+#footertext img {
+  margin: 0 5px;
+  height: 1.3em; /* Stellt sicher, dass das Logo die gleiche Höhe wie der Text hat */
+}
+#footertext a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#logo {
+  position: absolute;
+  width: auto; /* Originalgröße beibehalten */
+  height: auto; /* Originalgröße beibehalten */
+  left: 50%; /* Zentriert das Logo horizontal */
+  transform: translateX(-50%); /* Zentriert das Logo horizontal */
+}
+
+/* Anpassungen für kleinere Bildschirme */
+@media screen and (max-width: 1200px) {
+  #logo {
+    width: 100%; /* Skaliert das Logo auf großen Bildschirmen */
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #logo {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #logo {
+    height: auto;
+  }
+}
