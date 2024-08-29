@@ -2,9 +2,9 @@
   "name": "tarmac",
   "version": "1.0.0",
   "description": "tarmac game + api",
-  "main": "index.js",  // Updated to reflect the new location
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"  // Updated to reflect the new location
+    "start": "node index.js" 
   },
   "author": "kenodev",
   "license": "ISC",
