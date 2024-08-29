@@ -19,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 // Verbinde mit der Datenbank
-connectDB();
+//connectDB();
 
 // Statische Dateien aus dem public Ordner ausliefern
 /*app.use(express.static(path.resolve(__dirname, '../public')));
