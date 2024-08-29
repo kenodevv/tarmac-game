@@ -846,6 +846,9 @@ function need(length) {
 
     $('#score').html(score);
 
+    $('#menu').hide();
+    $('#canvas').hide()
+
     $('#game-over').show();
 }
 
@@ -921,6 +924,7 @@ function addAtSymbol(name) {
 
   $('.restart').click(function() {
     $('#game-over').hide();
+    $('#canvas').show()
 
 
     startGame();
