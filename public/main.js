@@ -19,6 +19,12 @@
   var requestedHighscore;
 
 
+  var discountHasFlown = false;  // New variable to track if discount has flown across the screen
+
+
+  var playSound;
+
+
   //SPEEEEEED
 
 
@@ -34,7 +40,7 @@
   var player_frame_speed = 4;
   var sky_speed = 7;
   var layer1_speed = 8;
-  var layer2_speed = 9;
+  var layer2_speed = 7;
 
   
   /**document.getElementById("goleaderboard").addEventListener("click", function() {
@@ -42,6 +48,18 @@
     document.getElementById("game").style.display = "none"
   
   }) */
+
+  if (canUseLocalStorage) {
+      playSound = (localStorage.getItem('playSound') === "true")
+    
+      if (playSound) {
+        $('.sound').addClass('sound-on').removeClass('sound-off');
+      }
+      else {
+        $('.sound').addClass('sound-off').removeClass('sound-on');
+      }
+    }
+    
 
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     document.getElementsByClassName("wrapper")[0].style.top = "-60px"
@@ -77,16 +95,24 @@
     this.imgs        = {
       'bg'           : 'imgs/bg.png',
       'bglayer1'      : 'imgs/layer1.png',
+      'discount'      : 'imgs/lolol.png',
       'grass'         : 'imgs/grass.png',
       'avatar_normal' : 'imgs/walkanim.png',
       'barrier-monkey' : 'imgs/barrier-monkey.png',
       'barrier-schere' : 'imgs/barrier-schere.png',
       'barrier-spike'  : 'imgs/barrier-spike.png'
     };
+
+    this.sounds      = {
+      'gamemusik'      : 'imgs/musik.mp3'
+    };
   
   
     var assetsLoaded = 0;                                // how many assets have been loaded
-    var numImgs      = Object.keys(this.imgs).length;    // total number of image assets
+    var numImgs      = Object.keys(this.imgs).length;
+    var numSounds    = Object.keys(this.sounds).length; 
+    this.totalAssest = numImgs + numSounds;              
+
     this.totalAssest = numImgs;                          // total number of assets
   
     /**
@@ -114,6 +140,16 @@
       }
     }
   
+      /**
+   * Check the ready state of an Audio file.
+   * @param {object} sound - Name of the audio asset that was loaded.
+   */
+    function _checkAudioState(sound) {
+    if (this.sounds[sound].status === 'loading' && this.sounds[sound].readyState === 4) {
+      assetLoaded.call(this, 'sounds', sound);
+    }
+  }
+
   
     /**
      * Create assets, set callback for asset loading, set asset source
@@ -137,6 +173,27 @@
           })(_this, img);
         }
       }
+
+      for (var sound in this.sounds) {
+        if (this.sounds.hasOwnProperty(sound)) {
+          src = this.sounds[sound];
+  
+          // create a closure for event binding
+          (function(_this, sound) {
+            _this.sounds[sound] = new Audio();
+            _this.sounds[sound].status = 'loading';
+            _this.sounds[sound].name = sound;
+            _this.sounds[sound].addEventListener('canplay', function() {
+              _checkAudioState.call(_this, sound);
+            });
+            _this.sounds[sound].src = src;
+            _this.sounds[sound].preload = 'auto';
+            _this.sounds[sound].load();
+            _this.sounds[sound].volume = 0.3;
+
+          })(_this, sound);
+        }
+      }
   
       
         
@@ -144,6 +201,7 @@
   
     return {
       imgs: this.imgs,
+      sounds: this.sounds,
       totalAssest: this.totalAssest,
       downloadAll: this.downloadAll
     };
@@ -259,6 +317,7 @@
     var sky   = {};
     var bglayer1 = {};
     var bglayer2 = {}
+    var discount = {}
 
   
   
@@ -272,47 +331,45 @@
       bglayer1.x -= bglayer1.speed;
       bglayer2.x -= bglayer2.speed;
 
-  
-      // draw images side by side to loop
-      //ctx.drawImage(assetLoader.imgs.sky, sky.x, sky.y);
-      //ctx.drawImage(assetLoader.imgs.sky, sky.x + canvas.width, sky.y);
       ctx.drawImage(assetLoader.imgs.bg, 0, 0);
 
       ctx.drawImage(assetLoader.imgs.bglayer1, bglayer1.x, bglayer1.y);
       ctx.drawImage(assetLoader.imgs.bglayer1, bglayer1.x + canvas.width, bglayer1.y);
-  
-      
 
-      //ctx.drawImage(assetLoader.imgs.bglayer2, bglayer2.x, bglayer2.y);
-      //ctx.drawImage(assetLoader.imgs.bglayer2, bglayer2.x + canvas.width, bglayer2.y);
+      // Move and draw the discount image if score is 100 and it hasn't flown yet
+      if (score >= 5000 && !discountHasFlown) {
+        discount.x -= discount.speed;
+        ctx.drawImage(assetLoader.imgs.discount, discount.x, discount.y);
 
-  
+        // Check if the discount image has completely left the screen
+        if (discount.x + assetLoader.imgs.discount.width < 0) {
+          discountHasFlown = true; // Set to true once it has flown off the screen
+        }
+      }
+
       // If the image scrolled off the screen, reset
-      //if (sky.x + assetLoader.imgs.sky.width <= 0)
-      //  sky.x = 0;
       if (bglayer1.x + assetLoader.imgs.bglayer1.width <= 0)
         bglayer1.x = 0;
-      //if (bglayer2.x + assetLoader.imgs.bglayer2.width <= 0)
-      //  bglayer2.x = 0; 
     };
-  
+
     /**
      * Reset background to zero
      */
     this.reset = function()  {
-      //sky.x = 0;
-      //sky.y = 0;
-      //sky.speed = sky_speed;
-      
       bglayer1.x = 0;
       bglayer1.y = 0;
-      bglayer1.speed = layer1_speed;     
-       
+      bglayer1.speed = layer1_speed;
+
       bglayer2.x = 0;
       bglayer2.y = 0;
-      bglayer2.speed = layer2_speed;  
-    }
-  
+      bglayer2.speed = layer2_speed;
+
+      discount.x = canvas.width;  // Start off-screen to the right
+      discount.y = 0;
+      discount.speed = layer2_speed;
+      discountHasFlown = false;  // Reset for the next game
+    };
+
     return {
       draw: this.draw,
       reset: this.reset
@@ -763,6 +820,8 @@ function need(length) {
    */
   function mainMenu() {
 
+    assetLoader.sounds.gamemusik.loop = true;
+
     if(localStorage.getItem('username') != null){
       fetch(`/playerStats/${localStorage.getItem('username')}`, {
         method: 'GET',
@@ -783,9 +842,18 @@ function need(length) {
       });
     }
 
+
+    for (var sound in assetLoader.sounds) {
+      if (assetLoader.sounds.hasOwnProperty(sound)) {
+        assetLoader.sounds[sound].muted = !playSound;
+      }
+    }
+      
+
     $('#progress').hide();
     $('#main').show();
     $('#menu').addClass('main');
+    $('.sound').show();
   }
   
   /**
@@ -817,6 +885,10 @@ function need(length) {
     
 
     animate(performance.now());
+
+    assetLoader.sounds.gamemusik.currentTime = 0;
+    assetLoader.sounds.gamemusik.play();
+
   
   }
   
@@ -896,6 +968,32 @@ function addAtSymbol(name) {
           document.getElementById('username-input').style.border = ""
         })
       })
+    }
+  });
+
+
+  $('.sound').click(function() {
+    var $this = $(this);
+    // sound off
+    if ($this.hasClass('sound-on')) {
+      $this.removeClass('sound-on').addClass('sound-off');
+      playSound = false;
+    }
+    // sound on
+    else {
+      $this.removeClass('sound-off').addClass('sound-on');
+      playSound = true;
+    }
+  
+    if (canUseLocalStorage) {
+      localStorage.setItem('kandi.playSound', playSound);
+    }
+  
+    // mute or unmute all sounds
+    for (var sound in assetLoader.sounds) {
+      if (assetLoader.sounds.hasOwnProperty(sound)) {
+        assetLoader.sounds[sound].muted = !playSound;
+      }
     }
   });
 
