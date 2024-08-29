@@ -4,12 +4,9 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
-}
-
 const connectDB = require('./connectMongo');
 const Player = require('./models/player');
+
 
 
 const app = express();
@@ -18,8 +15,20 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
+const startServer = async () => {
+  try {
+    await connectDB(); // Ensure the DB is connected before starting the server
+    console.log('Database connected successfully');
+    
+    // Statische Dateien aus dem public Ordner ausliefern
+    app.use(express.static(path.resolve(__dirname, '../public'))); 
+
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+}
 // Verbinde mit der Datenbank
-connectDB();
 
 // Statische Dateien aus dem public Ordner ausliefern
 app.use(express.static(path.resolve(__dirname, '../public')));
@@ -52,7 +61,7 @@ app.post('/playerUpdate/:username/:newScore/:token', async (req, res) => {
     const checkToken = Math.round(firstCheck); // Score als Integer runden
     
     // Dekodieren des Benutzernamens in Base64
-    const decodedUsername = atob(splitToken[3]); // atob() dekodiert Base64 in den ursprünglichen String
+    const decodedUsername = Buffer.from(splitToken[3], 'base64').toString('utf-8');
     
     // Beispiel erwarteter Score und Benutzername
     
@@ -156,5 +165,16 @@ app.get('/testing', (req, res) => {
   res.status(200).json({ message: 'Welcome to my API' });
 });
 
+const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+  } catch (error) {
+    console.error('Failed to connect to the database', error);
+    process.exit(1); // Exit the process with failure
+  }
+};
+
+startServer();
 
 module.exports = app;
