@@ -8,6 +8,14 @@
 }
 
 
+
+img {
+  -webkit-user-drag: none; /* Für Webkit-basierte Browser wie Chrome und Safari */
+  user-drag: none; /* Für andere Browser */
+
+  cursor: pointer;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   touch-action: manipulation;
@@ -717,7 +725,7 @@ h1 {
 /* Bildschirmbreiten bis 600px */
 @media screen and (max-width: 600px) {
   #leaderboard-btn {
-    top: 18rem; /* Weitere leichte Anpassung der Position */
+    top: 17.5rem; /* Weitere leichte Anpassung der Position */
     font-size: 27px; /* Weitere leichte Reduzierung der Schriftgröße */
   }
 }
@@ -725,7 +733,7 @@ h1 {
 /* Bildschirmbreiten bis 550px */
 @media screen and (max-width: 550px) {
   #leaderboard-btn {
-    top: 16.5rem; /* Weitere leichte Anpassung der Position */
+    top: 16rem; /* Weitere leichte Anpassung der Position */
     font-size: 25px; /* Weitere leichte Reduzierung der Schriftgröße */
   }
 }
@@ -765,6 +773,13 @@ h1 {
 @media screen and (max-width: 300px) {
   #leaderboard-btn {
     top: 6rem; /* Weiter nach oben verschoben */
+    font-size: 16px; /* Weitere leichte Reduzierung der Schriftgröße */
+  }
+}
+
+@media screen and (max-width: 200px) {
+  #leaderboard-btn {
+    top: 4.5rem; /* Weiter nach oben verschoben */
     font-size: 16px; /* Weitere leichte Reduzierung der Schriftgröße */
   }
 }
@@ -981,4 +996,25 @@ h1 {
   #logo {
     height: auto;
   }
+}
+
+
+.sound {
+  display: none;
+  position: absolute;
+  bottom: 10px;  /* Move the element 10px from the bottom */
+  right: 10px;   /* Move the element 10px from the right */
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 3;
+
+}
+.sound-on {
+  background-image: url('imgs/soundOn.png');
+  background-repeat: no-repeat;
+}
+.sound-off {
+  background-image: url('imgs/soundOff.png');
+  background-repeat: no-repeat;
 }
