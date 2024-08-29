@@ -22,12 +22,12 @@ app.use(express.json());
 connectDB();
 
 // Statische Dateien aus dem public Ordner ausliefern
-/*app.use(express.static(path.resolve(__dirname, '../public')));
+app.use(express.static(path.resolve(__dirname, '../public')));
 
 // Root Route - Liefert die index.html Datei aus
 app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../public/index.html'));
-}); */
+}); 
 
 // API Endpunkte
 
@@ -156,10 +156,5 @@ app.get('/testing', (req, res) => {
   res.status(200).json({ message: 'Welcome to my API' });
 });
 
-// Server starten
-/*const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-}); */
 
 module.exports = app;
