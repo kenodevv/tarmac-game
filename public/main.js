@@ -865,6 +865,7 @@ function need(length) {
    * Start the game - reset all variables and entities, spawn ground and water.
    */
   function startGame() { 
+    $('#canvas').show()
 
 
     ground = [];
