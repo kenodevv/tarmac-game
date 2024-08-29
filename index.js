@@ -1,13 +1,9 @@
-// api/index.js
-
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
 
-const connectDB = require('./connectMongo');
-const Player = require('./models/player');
-
-
+const connectDB = require('./connectMongo');  // Adjusted path to reflect that this file is now in the root
+const Player = require('./models/player');    // Adjusted path to reflect that this file is now in the root
 
 const app = express();
 
@@ -15,19 +11,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Verbinde mit der Datenbank
+// Connect to the database
 connectDB();
 
-// Statische Dateien aus dem public Ordner ausliefern
-app.use(express.static(path.resolve(__dirname, '../public')));
+// Serve static files from the public directory
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Root Route - Liefert die index.html Datei aus
+// Root Route - Serves the index.html file
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../public/index.html'));
-}); 
+  res.sendFile(path.join(__dirname, 'public/index.html'));
+});
 
-// API Endpunkte
-
+// API Endpoints
 app.post('/playerUpdate/:username/:newScore/:token', async (req, res) => {
   const { username, newScore, token } = req.params;
   const parsedScore = parseInt(newScore);
@@ -37,24 +32,16 @@ app.post('/playerUpdate/:username/:newScore/:token', async (req, res) => {
   }
 
   try {
- 
     const splitToken = token.split('_');
-
-    // Dekodieren des Scores
-    const encodedScore = parseFloat(splitToken[1]); // Der kodierte Score
-    const randomFactor = parseInt(splitToken[2], 10); // Der Zufallsfaktor
+    const encodedScore = parseFloat(splitToken[1]);
+    const randomFactor = parseInt(splitToken[2], 10);
     
-    // Den tatsächlichen Score berechnen
+    // Calculate the actual score
     const firstCheck = (encodedScore - randomFactor) / 44.5 - 25;
-    const checkToken = Math.round(firstCheck); // Score als Integer runden
+    const checkToken = Math.round(firstCheck);
     
-    // Dekodieren des Benutzernamens in Base64
+    // Decode the username from Base64
     const decodedUsername = Buffer.from(splitToken[3], 'base64').toString('utf-8');
-    
-    // Beispiel erwarteter Score und Benutzername
-    
-    // Validierung der dekodierten Werte
-  
 
     if (checkToken !== parsedScore || decodedUsername !== username) {
       return res.status(200).json({ message: 'Score wurde erfolgreich aktualisiert!' });
@@ -63,10 +50,10 @@ app.post('/playerUpdate/:username/:newScore/:token', async (req, res) => {
     let player = await Player.findOne({ username });
 
     if (!player) {
-      // Neuer Spieler erstellen
+      // Create a new player
       player = await Player.create({ username, score: parsedScore, token });
     } else if (parsedScore > player.score) {
-      // Score aktualisieren, wenn neuer Score höher ist
+      // Update score if the new score is higher
       player.score = parsedScore;
       player.token = token;
       await player.save();
@@ -152,6 +139,5 @@ app.delete('/deleteSTATS/:secretKey', async (req, res) => {
 app.get('/testing', (req, res) => {
   res.status(200).json({ message: 'Welcome to my API' });
 });
-
 
 module.exports = app;
