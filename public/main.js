@@ -849,7 +849,7 @@ function need(length) {
     $('#menu').hide();
     $('#canvas').hide()
 
-    $('#game-over').show();
+    
 }
 
   
