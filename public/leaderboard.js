@@ -1,1 +1,144 @@
-function _0x3c41(){const _0x56ebed=['getElement','then','2066360ExIfmf','_0x4f2c7c','you_number','display','click','18GjFWcD','you_score','sByClassNa','GET','d-btn','259KqcAOZ','textConten','position','7384rFUMJk','error','forEach','8FufFXy','style','username','catch','you_stats','name','you_name','getItem','slice','json','26616ykUuGi','leaderboar','\x20(\x20YOU\x20)','n/json','addEventLi','none','11UastTF','score','applicatio','rd/','1678705eaZdeX','59TtzJhz','85770aCTWaQ','cors','9778810ESBdiG','/leaderboa','31814SkXFVd','stener','2720028AKdLrI','ById'];_0x3c41=function(){return _0x56ebed;};return _0x3c41();}function _0x33fa(_0x568c20,_0x3b7251){const _0x3c4180=_0x3c41();return _0x33fa=function(_0x33facc,_0xe83e34){_0x33facc=_0x33facc-0xb5;let _0x259771=_0x3c4180[_0x33facc];return _0x259771;},_0x33fa(_0x568c20,_0x3b7251);}const _0x4be0ef=_0x33fa;(function(_0x24cdb2,_0x2f40d7){const _0x506773={_0x45ffd7:0xdc,_0x16e570:0xe3,_0x207848:0xc7,_0x1e94f7:0xdb,_0x33fcbc:0xb7,_0x850abc:0xd1},_0x2b53d1=_0x33fa,_0xc64aab=_0x24cdb2();while(!![]){try{const _0x218cea=parseInt(_0x2b53d1(_0x506773._0x45ffd7))/0x1*(parseInt(_0x2b53d1(0xe1))/0x2)+-parseInt(_0x2b53d1(_0x506773._0x16e570))/0x3+-parseInt(_0x2b53d1(_0x506773._0x207848))/0x4*(parseInt(_0x2b53d1(_0x506773._0x1e94f7))/0x5)+-parseInt(_0x2b53d1(0xdd))/0x6*(parseInt(_0x2b53d1(0xc1))/0x7)+-parseInt(_0x2b53d1(_0x506773._0x33fcbc))/0x8*(parseInt(_0x2b53d1(0xbc))/0x9)+-parseInt(_0x2b53d1(0xdf))/0xa*(-parseInt(_0x2b53d1(0xd7))/0xb)+parseInt(_0x2b53d1(_0x506773._0x850abc))/0xc*(parseInt(_0x2b53d1(0xc4))/0xd);if(_0x218cea===_0x2f40d7)break;else _0xc64aab['push'](_0xc64aab['shift']());}catch(_0x39100f){_0xc64aab['push'](_0xc64aab['shift']());}}}(_0x3c41,0x86e6b),document[_0x4be0ef(0xb5)+_0x4be0ef(0xe4)](_0x4be0ef(0xd2)+_0x4be0ef(0xc0))[_0x4be0ef(0xd5)+_0x4be0ef(0xe2)](_0x4be0ef(0xbb),function(){const _0x4088aa={_0x5b781f:0xc8,_0x3cbcc6:0xba},_0x553ec1=_0x4be0ef;document[_0x553ec1(0xb5)+'ById'](_0x553ec1(0xd2)+'d')[_0x553ec1(_0x4088aa._0x5b781f)][_0x553ec1(_0x4088aa._0x3cbcc6)]!=_0x553ec1(0xd6)&&_0x4cf29f();}));var _0x366bde=[];function _0x4cf29f(){const _0x1f6e3c={_0x2c6193:0xc9,_0x1842d6:0xb5,_0x256892:0xc8,_0x34fe39:0xbf,_0x456afb:0xde,_0x175ac4:0xd9,_0x17b694:0xb6,_0xb466e2:0xca,_0x35002e:0xcf,_0x50c5d7:0xcb,_0x3d23e2:0xba,_0x4573e0:0xc2,_0x10c86d:0xd3,_0x120569:0xe4,_0x14561a:0xb5,_0x1308fc:0xb9,_0x24b6af:0xe0,_0x2fa70e:0xce},_0x14927c={_0x3b74ab:0xc5},_0x336a81={_0x111674:0xb8,_0x545abe:0xe4,_0x3e3267:0xba,_0x472a86:0xcd,_0x1defbf:0xd3,_0x421d1f:0xbd,_0x466fea:0xd8,_0x1cde3c:0xb5,_0x4b7694:0xc2},_0x5e1222={_0x5f3e08:0xd8,_0x4ac658:0xbe,_0x3617a0:0xcc,_0x569ee3:0xbe,_0x1b08a7:0xd8,_0xf1ccf5:0xc2},_0x67a315={_0x70002e:0xb5},_0x2137a1={_0xe869dd:0xd0,_0x38a8be:0xcf,_0x2a2e91:0xc3,_0x597b95:0xc6,_0x56fb85:0xce,_0x587b73:0xc9,_0x82ca90:0xba,_0x5c58cf:0xe4,_0x19113d:0xcd,_0x40443b:0xc9,_0xf8863a:0xb5,_0x357182:0xc2,_0x3ae263:0xe4,_0x4c8e79:0xb9},_0x3c67c5={_0xf4918c:0xbe,_0x24a34d:0xd8},_0xa5cb8=_0x4be0ef;var _0x6c945b;localStorage['getItem'](_0xa5cb8(0xc9))!=null?_0x6c945b=localStorage['getItem'](_0xa5cb8(_0x1f6e3c._0x2c6193)):(document[_0xa5cb8(_0x1f6e3c._0x1842d6)+_0xa5cb8(0xe4)]('you_stats')[_0xa5cb8(_0x1f6e3c._0x256892)]['display']='none',_0x6c945b='@kenodev');if(_0x366bde=='')fetch('/leaderboa'+_0xa5cb8(0xda)+_0x6c945b,{'method':_0xa5cb8(_0x1f6e3c._0x34fe39),'mode':_0xa5cb8(_0x1f6e3c._0x456afb),'headers':{'_0x517dfb':_0xa5cb8(_0x1f6e3c._0x175ac4)+_0xa5cb8(0xd4)}})[_0xa5cb8(_0x1f6e3c._0x17b694)](async function(_0x4fb2ff){const _0x62236f=_0xa5cb8,_0x2b26f9=await _0x4fb2ff[_0x62236f(_0x2137a1._0xe869dd)]();_0x366bde=_0x2b26f9;const _0x166641=_0x2b26f9[_0x62236f(0xd2)+'d'][_0x62236f(_0x2137a1._0x38a8be)](0x0,0xa),_0x321baa=_0x2b26f9[_0x62236f(0xb8)],_0x2d7eaa=_0x2b26f9[_0x62236f(_0x2137a1._0x2a2e91)];_0x166641[_0x62236f(_0x2137a1._0x597b95)]((_0x17ea84,_0x1bd184)=>{const _0x338195=_0x62236f,_0x51806d=_0x17ea84['username'],_0x52b28e=_0x17ea84[_0x338195(0xd8)],_0x38abe9=document[_0x338195(0xb5)+_0x338195(_0x3c67c5._0xf4918c)+'me'](_0x338195(0xcc))[_0x1bd184],_0xe63c32=document[_0x338195(0xb5)+_0x338195(0xbe)+'me'](_0x338195(_0x3c67c5._0x24a34d))[_0x1bd184];_0x38abe9&&_0xe63c32&&(_0x38abe9[_0x338195(0xc2)+'t']=_0x51806d,_0xe63c32['textConten'+'t']=_0x52b28e);}),localStorage[_0x62236f(_0x2137a1._0x56fb85)](_0x62236f(_0x2137a1._0x587b73))!=null&&(document[_0x62236f(0xb5)+_0x62236f(0xe4)]('you_stats')['style'][_0x62236f(_0x2137a1._0x82ca90)]='',document[_0x62236f(0xb5)+_0x62236f(_0x2137a1._0x5c58cf)](_0x62236f(_0x2137a1._0x19113d))[_0x62236f(0xc2)+'t']=_0x321baa[_0x62236f(_0x2137a1._0x40443b)]+'\x20(\x20YOU\x20)',document[_0x62236f(_0x2137a1._0xf8863a)+_0x62236f(0xe4)](_0x62236f(0xbd))[_0x62236f(_0x2137a1._0x357182)+'t']=_0x321baa['score'],document['getElement'+_0x62236f(_0x2137a1._0x3ae263)](_0x62236f(_0x2137a1._0x4c8e79))['textConten'+'t']=_0x2d7eaa+'.');})[_0xa5cb8(_0x1f6e3c._0xb466e2)](function(_0x19cbea){const _0xa3bbb4=_0xa5cb8;console[_0xa3bbb4(0xc5)]('Error:',_0x19cbea);});else{responseBody=_0x366bde;const _0x4be333=responseBody['leaderboar'+'d'][_0xa5cb8(_0x1f6e3c._0x35002e)](0x0,0xa),_0x4ff041=responseBody[_0xa5cb8(0xb8)],_0x34bf59=responseBody['position'];_0x4be333[_0xa5cb8(0xc6)]((_0x33a5d1,_0x2b7a0b)=>{const _0x2bf79f=_0xa5cb8,_0x5edf9e=_0x33a5d1['username'],_0x401bd4=_0x33a5d1['score'],_0x51bbfc=document[_0x2bf79f(0xb5)+'sByClassNa'+'me']('name')[_0x2b7a0b],_0x52229d=document[_0x2bf79f(_0x67a315._0x70002e)+'sByClassNa'+'me'](_0x2bf79f(0xd8))[_0x2b7a0b];_0x51bbfc&&_0x52229d&&(_0x51bbfc[_0x2bf79f(0xc2)+'t']=_0x5edf9e,_0x52229d[_0x2bf79f(0xc2)+'t']=_0x401bd4);}),localStorage[_0xa5cb8(0xce)](_0xa5cb8(_0x1f6e3c._0x2c6193))!=null&&(document[_0xa5cb8(0xb5)+'ById'](_0xa5cb8(_0x1f6e3c._0x50c5d7))[_0xa5cb8(_0x1f6e3c._0x256892)][_0xa5cb8(_0x1f6e3c._0x3d23e2)]='',document['getElement'+_0xa5cb8(0xe4)](_0xa5cb8(0xcd))[_0xa5cb8(_0x1f6e3c._0x4573e0)+'t']=_0x4ff041[_0xa5cb8(_0x1f6e3c._0x2c6193)]+_0xa5cb8(_0x1f6e3c._0x10c86d),document[_0xa5cb8(0xb5)+_0xa5cb8(_0x1f6e3c._0x120569)]('you_score')[_0xa5cb8(0xc2)+'t']=_0x4ff041[_0xa5cb8(0xd8)],document[_0xa5cb8(_0x1f6e3c._0x14561a)+_0xa5cb8(0xe4)](_0xa5cb8(_0x1f6e3c._0x1308fc))[_0xa5cb8(0xc2)+'t']=_0x34bf59+'.');}fetch(_0xa5cb8(_0x1f6e3c._0x24b6af)+_0xa5cb8(0xda)+localStorage[_0xa5cb8(_0x1f6e3c._0x2fa70e)](_0xa5cb8(_0x1f6e3c._0x2c6193)),{'method':_0xa5cb8(_0x1f6e3c._0x34fe39),'mode':'cors','headers':{'_0x517dfb':_0xa5cb8(0xd9)+_0xa5cb8(0xd4)}})[_0xa5cb8(_0x1f6e3c._0x17b694)](async function(_0x4b2f05){const _0x3904c5=_0xa5cb8,_0x4307a0=await _0x4b2f05[_0x3904c5(0xd0)]();if(_0x366bde!=_0x4307a0){const _0xab53ca=_0x4307a0[_0x3904c5(0xd2)+'d'][_0x3904c5(0xcf)](0x0,0xa),_0x25e1d7=_0x4307a0[_0x3904c5(_0x336a81._0x111674)],_0xff30f9=_0x4307a0['position'];_0xab53ca['forEach']((_0x2b39a0,_0x4afd43)=>{const _0x17b12b=_0x3904c5,_0x948aa0=_0x2b39a0['username'],_0x2f6a1b=_0x2b39a0[_0x17b12b(_0x5e1222._0x5f3e08)],_0x45a0cf=document[_0x17b12b(0xb5)+_0x17b12b(_0x5e1222._0x4ac658)+'me'](_0x17b12b(_0x5e1222._0x3617a0))[_0x4afd43],_0x8ebc2f=document['getElement'+_0x17b12b(_0x5e1222._0x569ee3)+'me'](_0x17b12b(_0x5e1222._0x1b08a7))[_0x4afd43];_0x45a0cf&&_0x8ebc2f&&(_0x45a0cf[_0x17b12b(_0x5e1222._0xf1ccf5)+'t']=_0x948aa0,_0x8ebc2f['textConten'+'t']=_0x2f6a1b);}),localStorage[_0x3904c5(0xce)](_0x3904c5(0xc9))!=null&&(document[_0x3904c5(0xb5)+_0x3904c5(_0x336a81._0x545abe)]('you_stats')[_0x3904c5(0xc8)][_0x3904c5(_0x336a81._0x3e3267)]='',document[_0x3904c5(0xb5)+_0x3904c5(_0x336a81._0x545abe)](_0x3904c5(_0x336a81._0x472a86))['textConten'+'t']=_0x25e1d7['username']+_0x3904c5(_0x336a81._0x1defbf),document[_0x3904c5(0xb5)+_0x3904c5(0xe4)](_0x3904c5(_0x336a81._0x421d1f))['textConten'+'t']=_0x25e1d7[_0x3904c5(_0x336a81._0x466fea)],document[_0x3904c5(_0x336a81._0x1cde3c)+'ById']('you_number')[_0x3904c5(_0x336a81._0x4b7694)+'t']=_0xff30f9+'.');}})[_0xa5cb8(_0x1f6e3c._0xb466e2)](function(_0x2879bf){const _0x5f5eb6=_0xa5cb8;console[_0x5f5eb6(_0x14927c._0x3b74ab)]('Error:',_0x2879bf);});}
+document.getElementById("leaderboard-btn").addEventListener("click", function(){
+    if(document.getElementById("leaderboard").style.display != "none"){
+        refreshLeaderboard()
+    }    
+})
+
+
+var hilfsjson = [];
+
+function refreshLeaderboard(){
+    var newUsername;
+    if(localStorage.getItem('username') != null){
+        newUsername = localStorage.getItem('username')
+    }else{
+        document.getElementById('you_stats').style.display = "none"
+        newUsername = '@kenodev'
+    }
+
+    if(hilfsjson == ''){
+        fetch(`/leaderboard/${newUsername}`, {
+            method: 'GET',
+            mode: "cors",
+            headers: {
+            'Content-Type': 'application/json',
+            },
+        })
+        .then(async function(response) {
+            const responseBody = await response.json();
+            hilfsjson = responseBody;
+            
+            // Extrahiere die Daten aus der Serverantwort
+            const leaderboardData = responseBody.leaderboard.slice(0, 10); // Nur die ersten 10 Einträge des Leaderboards
+            const playerData = responseBody.player;
+            const positionData = responseBody.position;
+            
+            // Verarbeite die Leaderboard-Daten
+            leaderboardData.forEach((entry, index) => {
+                const username = entry.username;
+                const score = entry.score;
+            
+                // Finde die entsprechenden Elemente mit den Klassen "username" und "score"
+                const usernameElement = document.getElementsByClassName("name")[index]
+                const scoreElement = document.getElementsByClassName("score")[index]
+                
+                if (usernameElement && scoreElement) {
+                    // Setze die Werte der Namen und Scores in die Elemente ein
+                    usernameElement.textContent = username;
+                    scoreElement.textContent = score;
+                }
+            });
+
+            if(localStorage.getItem('username') != null){
+                document.getElementById('you_stats').style.display = ""
+                document.getElementById("you_name").textContent = playerData.username + " ( YOU )";
+                document.getElementById("you_score").textContent = playerData.score;
+                document.getElementById("you_number").textContent = positionData + ".";
+
+            }
+        })
+        .catch(function(error) {
+            console.error('Error:', error);
+        });
+    }else{
+        responseBody = hilfsjson
+        const leaderboardData = responseBody.leaderboard.slice(0, 10); // Nur die ersten 10 Einträge des Leaderboards
+        const playerData = responseBody.player;
+        const positionData = responseBody.position;
+        
+        // Verarbeite die Leaderboard-Daten
+        leaderboardData.forEach((entry, index) => {
+            const username = entry.username;
+            const score = entry.score;
+        
+            // Finde die entsprechenden Elemente mit den Klassen "username" und "score"
+            const usernameElement = document.getElementsByClassName("name")[index]
+            const scoreElement = document.getElementsByClassName("score")[index]
+            
+            if (usernameElement && scoreElement) {
+                // Setze die Werte der Namen und Scores in die Elemente ein
+                usernameElement.textContent = username;
+                scoreElement.textContent = score;
+            }
+        });
+
+        if(localStorage.getItem('username') != null){
+            document.getElementById('you_stats').style.display = ""
+            document.getElementById("you_name").textContent = playerData.username + " ( YOU )";
+            document.getElementById("you_score").textContent = playerData.score;
+            document.getElementById("you_number").textContent = positionData + ".";
+
+        }
+
+        // Setze die Daten des aktuellen Spielers und die Position
+    }
+
+    fetch(`/leaderboard/${localStorage.getItem('username')}`, {
+        method: 'GET',
+        mode: "cors",
+        headers: {
+        'Content-Type': 'application/json',
+        },
+    })
+    .then(async function(response) {
+        const responseBody = await response.json();
+
+        if(hilfsjson!=responseBody){
+        
+            // Extrahiere die Daten aus der Serverantwort
+            const leaderboardData = responseBody.leaderboard.slice(0, 10); // Nur die ersten 10 Einträge des Leaderboards
+            const playerData = responseBody.player;
+            const positionData = responseBody.position;
+            
+            // Verarbeite die Leaderboard-Daten
+            leaderboardData.forEach((entry, index) => {
+                const username = entry.username;
+                const score = entry.score;
+            
+                // Finde die entsprechenden Elemente mit den Klassen "username" und "score"
+                const usernameElement = document.getElementsByClassName("name")[index]
+                const scoreElement = document.getElementsByClassName("score")[index]
+                
+                if (usernameElement && scoreElement) {
+                    // Setze die Werte der Namen und Scores in die Elemente ein
+                    usernameElement.textContent = username;
+                    scoreElement.textContent = score;
+                }
+            });
+
+            if(localStorage.getItem('username') != null){
+                document.getElementById('you_stats').style.display = ""
+                document.getElementById("you_name").textContent = playerData.username + " ( YOU )";
+                document.getElementById("you_score").textContent = playerData.score;
+                document.getElementById("you_number").textContent = positionData + ".";
+
+            }
+        }
+    })
+    .catch(function(error) {
+        console.error('Error:', error);
+    });
+    
+
+    
+}
