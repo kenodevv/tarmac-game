@@ -7,7 +7,9 @@
   font-style: normal;
 }
 
-
+.leaderboard-btn-outside {
+  color: white; /* Textfarbe auf weiß ändern */
+}
 
 img {
   -webkit-user-drag: none; /* Für Webkit-basierte Browser wie Chrome und Safari */
