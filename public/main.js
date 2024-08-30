@@ -61,8 +61,24 @@
     }
     
 
+    window.addEventListener('scroll', function() {
+      const leaderboardBtn = document.getElementById('leaderboard-btn');
+      const menu = document.getElementById('menu');
+      
+      const btnRect = leaderboardBtn.getBoundingClientRect();
+      const menuRect = menu.getBoundingClientRect();
+  
+      // Überprüfen, ob der Button außerhalb des Menüs ist
+      if (btnRect.bottom > menuRect.bottom || btnRect.top < menuRect.top) {
+          leaderboardBtn.classList.add('leaderboard-btn-outside');
+      } else {
+          leaderboardBtn.classList.remove('leaderboard-btn-outside');
+      }
+    });  
+
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     document.getElementsByClassName("wrapper")[0].style.top = "-60px"
+    document.getElementById("game-over").style.top = "-60px"
     document.body.style.zoom = "55%"
   
   } 
