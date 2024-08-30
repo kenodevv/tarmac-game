@@ -71,6 +71,7 @@
   
         // Überprüfen, ob der Button außerhalb des Menüs ist
         if (btnRect.bottom > menuRect.bottom || btnRect.top < menuRect.top) {
+          alert("HI")
           leaderboardBtn.classList.add('leaderboard-btn-outside');
         } else {
           leaderboardBtn.classList.remove('leaderboard-btn-outside');
