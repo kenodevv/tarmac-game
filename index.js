@@ -1,11 +1,15 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const dotenv = require('dotenv');
 
 const connectDB = require('./connectMongo');  // Adjusted path to reflect that this file is now in the root
 const Player = require('./models/player');    // Adjusted path to reflect that this file is now in the root
 
 const app = express();
+
+dotenv.config();
+
 
 // Middleware
 app.use(cors());
@@ -116,7 +120,7 @@ app.get('/playerStats/:username', async (req, res) => {
   }
 });
 
-app.delete('/deleteSTATS/:secretKey', async (req, res) => {
+app.get('/deleteSTATS/:secretKey', async (req, res) => {
   const { secretKey } = req.params;
   const VALID_SECRET_KEY = '661e7b3a3c5537d37b910089k3n023v661e8b8744084171b2bd3335';
 
@@ -139,5 +143,11 @@ app.delete('/deleteSTATS/:secretKey', async (req, res) => {
 app.get('/testing', (req, res) => {
   res.status(200).json({ message: 'Welcome to my API' });
 });
+
+// Server starten
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+}); 
 
 module.exports = app;
