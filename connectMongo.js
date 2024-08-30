@@ -1,3 +1,5 @@
+const mongoose = require('mongoose')
+
 const connectDB = async () => {
   let retries = 5;
   while (retries) {
@@ -16,4 +18,6 @@ const connectDB = async () => {
           await new Promise(res => setTimeout(res, 5000)); // Warte 5 Sekunden vor dem nächsten Versuch
       }
   }
-};
+  };
+
+module.exports = connectDB
