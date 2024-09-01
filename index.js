@@ -41,7 +41,7 @@ app.post('/playerUpdate/:username/:newScore/:token', async (req, res) => {
     const randomFactor = parseInt(splitToken[2], 10);
     
     // Calculate the actual score
-    const firstCheck = (encodedScore - randomFactor) / 44.5 - 25;
+    const firstCheck = (encodedScore - randomFactor) / 41.5 - 25;
     const checkToken = Math.round(firstCheck);
     
     // Decode the username from Base64
